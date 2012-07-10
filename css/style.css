@@ -56,7 +56,7 @@ a, tr, hgroup p {
 }
 
 body {
-	background: #f0f2f4;
+	background:#f0f2f4 url('img/handmadepaper.png');
 }
 
 #wrapper {
@@ -261,6 +261,8 @@ table {
 	border-spacing: 0;
 	margin: 1% 0;
 	width: 100%;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.3);
+	border-radius: 4px;
 	/*position: relative;*/
 }
         
@@ -293,7 +295,7 @@ tr:hover td{
 }
 .label_iphone, .label_ipad {
 	vertical-align: middle;
-	color: #bbc;
+	color: #b1b8bf;
 	font-family: "EntypoRegular";
 	background: -webkit-gradient(
 	    linear,
