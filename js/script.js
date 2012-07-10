@@ -13,6 +13,18 @@ $.extend($.expr[':'], {
 
 
 $(document).ready(function(){
+// Live text preview
+$('nav').on('keyup', 'input[name=live_preview]', function(){
+	if($(this).val() == ''){
+		$('.preview').each(function(){
+			$(this).text($(this).attr('style').split(':')[1]);
+		});	
+	}else {
+		$('.preview').text($(this).val());
+	}			
+});
+
+
 $('header#main').append('<div class="count"><div class="font_families">Families: <b></b></div><div class="font_faces">Faces: <b></b></div></div>');
 countFonts();
 /* 	$('hgroup').append('<p>jQuery is loaded.</p>'); */
