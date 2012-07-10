@@ -1,0 +1,641 @@
+<!doctype html>
+<html>
+<head>
+    <title>iOS Fonts</title>
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="iPhone, iPad, font, iPod, iOS, typography" />
+    <meta name="author" content="Michael Critz" />
+</head>
+<body>
+<div id="wrapper">
+    <hgroup>
+        <h1>iOS Fonts</h1>
+        <h2>A Place for Happy Typography</h2>
+    </hgroup>
+    <article>
+        <p>Thanks for your suggestions.</p>
+    </article>
+    <section>
+    <header>
+
+    </header>
+    <section id="iosfonts">
+    <h3>Academy Engraved LET</h3>
+        <dl>
+        <dt style="font-family:AcademyEngravedLetPlain">AcademyEngravedLetPlain</dt>
+        </dl>
+    </dl>
+    <h3>American Typewriter</h3>
+        <dl>
+        <dt style="font-family:AmericanTypewriter">AmericanTypewriter</dt>
+
+        <dt style="font-family:AmericanTypewriter-Bold">AmericanTypewriter-Bold</dt>
+
+        <dt style="font-family:AmericanTypewriter-Condensed">AmericanTypewriter-Condensed</dt>
+
+        <dt style="font-family:AmericanTypewriter-CondensedBold">AmericanTypewriter-CondensedBold</dt>
+
+        <dt style="font-family:AmericanTypewriter-CondensedLight">AmericanTypewriter-CondensedLight</dt>
+            <dd>ios5</dd>    </dl>
+
+        <dt style="font-family:AmericanTypewriter-Light">AmericanTypewriter-Light</dt>
+        
+
+    </dl>
+    <h3>Apple Color Emoji</h3>
+    <dl>
+        <dt style="font-family:AppleColorEmoji">AppleColorEmoji</dt>
+        
+
+    </dl>
+    <h3>Apple SD Gothic Neo</h3>
+        <dl>
+        <dt style="font-family:AppleSDGothicNeo-Bold">AppleSDGothicNeo-Bold</dt>
+    </dl>
+        <dt style="font-family:AppleSDGothicNeo-Medium">AppleSDGothicNeo-Medium</dt>
+        
+
+    </dl>
+    <h3>Arial</h3>
+    <dl>
+        <dt style="font-family:ArialMT">ArialMT</dt>
+
+        <dt style="font-family:Arial-BoldItalicMT">Arial-BoldItalicMT</dt>
+        </dl>
+        <dt style="font-family:Arial-BoldMT">Arial-BoldMT</dt>
+    </dl>
+        <dt style="font-family:Arial-ItalicMT">Arial-ItalicMT</dt>
+    
+
+    </dl>
+    <h3>Arial Hebrew</h3>
+        <dl>
+        <dt style="font-family:ArialHebrew">ArialHebrew</dt>
+        <dt style="font-family:ArialHebrew-Bold">ArialHebrew-Bold</dt>
+    </dl>
+    <h3>Arial Rounded MT Bold</h3>
+        <dl>
+        <dt style="font-family:ArialRoundedMTBold">ArialRoundedMTBold</dt>
+    
+
+    
+    </dl>
+    <h3>Avenir</h3>
+        <dl>
+        <dt style="font-family:Avenir-Black">Avenir-Black</dt>
+        <dt style="font-family:Avenir-BlackOblique">Avenir-BlackOblique</dt>
+        <dt style="font-family:Avenir-Book">Avenir-Book</dt>
+        <dt style="font-family:Avenir-BookOblique">Avenir-BookOblique</dt>
+        <dt style="font-family:Avenir-Heavy">Avenir-Heavy</dt>
+        <dt style="font-family:Avenir-HeavyOblique">Avenir-HeavyOblique</dt>
+        </dl>
+        <dt style="font-family:Avenir-Light">Avenir-Light</dt>
+        </dl>
+        <dt style="font-family:Avenir-LightOblique">Avenir-LightOblique</dt>
+        </dl>
+        <dt style="font-family:Avenir-Medium">Avenir-Medium</dt>
+        </dl>
+        <dt style="font-family:Avenir-MediumOblique">Avenir-MediumOblique</dt>
+        </dl>
+        <dt style="font-family:Avenir-Oblique">Avenir-Oblique</dt>
+        </dl>
+        <dt style="font-family:Avenir-Roman">Avenir-Roman</dt>
+    </dl>
+    <h3>Avenir Next</h3>
+    <dl>
+        <dt style="font-family:AvenirNext-Bold">AvenirNext-Bold</dt>
+        <dt style="font-family:AvenirNext-BoldItalic">AvenirNext-BoldItalic</dt>
+        <dt style="font-family:AvenirNext-DemiBold">AvenirNext-DemiBold</dt>
+        <dt style="font-family:AvenirNext-DemiBoldItalic">AvenirNext-DemiBoldItalic</dt>
+        <dt style="font-family:AvenirNext-Heavy">AvenirNext-Heavy</dt>
+        <dt style="font-family:AvenirNext-HeavyItalic">AvenirNext-HeavyItalic</dt>
+        <dt style="font-family:AvenirNext-Italic">AvenirNext-Italic</dt>
+        <dt style="font-family:AvenirNext-Medium">AvenirNext-Medium</dt>
+        <dt style="font-family:AvenirNext-MediumItalic">AvenirNext-MediumItalic</dt>
+        <dt style="font-family:AvenirNext-Regular">AvenirNext-Regular</dt>
+        <dt style="font-family:AvenirNext-UltraLight">AvenirNext-UltraLight</dt>
+        <dt style="font-family:AvenirNext-UltraLightItalic">AvenirNext-UltraLightItalic</dt>
+    </dl>
+    <h3>Avenir Next Condensed</h3>
+        <dl>
+        <dt style="font-family:AvenirNextCondensed-Bold">AvenirNextCondensed-Bold</dt>
+
+        <dt style="font-family:AvenirNextCondensed-BoldItalic">AvenirNextCondensed-BoldItalic</dt>
+
+        <dt style="font-family:AvenirNextCondensed-DemiBold">AvenirNextCondensed-DemiBold</dt>
+
+        <dt style="font-family:AvenirNextCondensed-DemiBoldItalic">AvenirNextCondensed-DemiBoldItalic</dt>
+
+        <dt style="font-family:AvenirNextCondensed-Heavy">AvenirNextCondensed-Heavy</dt>
+
+        <dt style="font-family:AvenirNextCondensed-HeavyItalic">AvenirNextCondensed-HeavyItalic</dt>
+
+        <dt style="font-family:AvenirNextCondensed-Italic">AvenirNextCondensed-Italic</dt>
+
+        <dt style="font-family:AvenirNextCondensed-Medium">AvenirNextCondensed-Medium</dt>
+
+        <dt style="font-family:AvenirNextCondensed-MediumItalic">AvenirNextCondensed-MediumItalic</dt>
+
+        <dt style="font-family:AvenirNextCondensed-Regular">AvenirNextCondensed-Regular</dt>
+
+        <dt style="font-family:AvenirNextCondensed-UltraLight">AvenirNextCondensed-UltraLight</dt>
+
+        <dt style="font-family:AvenirNextCondensed-UltraLightItalic">AvenirNextCondensed-UltraLightItalic</dt>
+        
+
+    </dl>
+    <h3>Bangla Sangam MN</h3>
+        <dl>
+        <dt style="font-family:BanglaSangamMN">BanglaSangamMN</dt>
+    </dl>
+        <dt style="font-family:BanglaSangamMN-Bold">BanglaSangamMN-Bold</dt>
+    
+
+    </dl>
+    <h3>Baskerville</h3>
+    <dl>
+        <dt style="font-family:Baskerville">Baskerville</dt>
+        </dl>
+        <dt style="font-family:Baskerville-Bold">Baskerville-Bold</dt>
+        </dl>
+        <dt style="font-family:Baskerville-BoldItalic">Baskerville-BoldItalic</dt>
+        </dl>
+        <dt style="font-family:Baskerville-Italic">Baskerville-Italic</dt>
+        </dl>
+        <dt style="font-family:Baskerville-SemiBold">Baskerville-SemiBold</dt>
+        </dl>
+        <dt style="font-family:Baskerville-SemiBoldItalic">Baskerville-SemiBoldItalic</dt>
+        
+
+    </dl>
+    <h3>Bodoni Ornaments</h3>
+        <dl>
+        <dt style="font-family:BodoniOrnamentsITCTT">BodoniOrnamentsITCTT</dt>
+    </dl>
+    <h3>Bodoni 72</h3>
+        <dl>
+        <dt style="font-family:BodoniSvtyTwoITCTT-Bold">BodoniSvtyTwoITCTT-Bold</dt>
+        </dl>
+        <dt style="font-family:BodoniSvtyTwoITCTT-Book">BodoniSvtyTwoITCTT-Book</dt>
+        </dl>
+        <dt style="font-family:BodoniSvtyTwoITCTT-BookIta">BodoniSvtyTwoITCTT-BookIta</dt>
+        
+
+    </dl>
+    <h3>Bodoni 72 Oldstyle</h3>
+        <dl>
+        <dt style="font-family:BodoniSvtyTwoOSITCTT-Bold">BodoniSvtyTwoOSITCTT-Bold</dt>
+    </dl>
+        <dt style="font-family:BodoniSvtyTwoOSITCTT-Book">BodoniSvtyTwoOSITCTT-Book</dt>
+    </dl>
+        <dt style="font-family:BodoniSvtyTwoOSITCTT-BookIt">BodoniSvtyTwoOSITCTT-BookIt</dt>
+    
+
+    
+        <dt style="font-family:BodoniSvtyTwoSCITCTT-Book">BodoniSvtyTwoSCITCTT-Book</dt>
+    
+
+    </dl>
+    <h3>Bradley Hand</h3>
+        <dl>
+        <dt style="font-family:BradleyHandITCTT-Bold">BradleyHandITCTT-Bold</dt>
+        
+
+    </dl>
+    <h3>Chalkboard SE</h3>
+        <dl>
+        <dt style="font-family:ChalkboardSE-Bold">ChalkboardSE-Bold</dt>
+    
+
+    
+        <dt style="font-family:ChalkboardSE-Light">ChalkboardSE-Light</dt>
+        </dl>
+        <dt style="font-family:ChalkboardSE-Regular">ChalkboardSE-Regular</dt>
+        
+
+    </dl>
+    <h3>Chalkduster</h3>
+        <dl>
+        <dt style="font-family:Chalkduster">Chalkduster</dt>
+    
+
+    </dl>
+    <h3>Cochin</h3>
+        <dl>
+        <dt style="font-family:Cochin">Cochin</dt>
+        </dl>
+        <dt style="font-family:Cochin-Bold">Cochin-Bold</dt>
+        </dl>
+        <dt style="font-family:Cochin-BoldItalic">Cochin-BoldItalic</dt>
+        </dl>
+        <dt style="font-family:Cochin-Italic">Cochin-Italic</dt>
+        
+
+    </dl>
+    <h3>Copperplate</h3>
+        <dl>
+        <dt style="font-family:Copperplate">Copperplate</dt>
+    </dl>
+        <dt style="font-family:Copperplate-Bold">Copperplate-Bold</dt>
+    </dl>
+        <dt style="font-family:Copperplate-Light">Copperplate-Light</dt>
+    
+
+    </dl>
+    <h3>Courier</h3>
+        <dl>
+        <dt style="font-family:Courier">Courier</dt>
+        </dl>
+        <dt style="font-family:Courier-Bold">Courier-Bold</dt>
+        </dl>
+        <dt style="font-family:Courier-BoldOblique">Courier-BoldOblique</dt>
+        </dl>
+        <dt style="font-family:Courier-Oblique">Courier-Oblique</dt>
+        
+
+    </dl>
+    <h3>Courier New</h3>
+        <dl>
+        <dt style="font-family:CourierNewPS-BoldItalicMT">CourierNewPS-BoldItalicMT</dt>
+    </dl>
+        <dt style="font-family:CourierNewPS-BoldMT">CourierNewPS-BoldMT</dt>
+    </dl>
+        <dt style="font-family:CourierNewPS-ItalicMT">CourierNewPS-ItalicMT</dt>
+    </dl>
+        <dt style="font-family:CourierNewPSMT">CourierNewPSMT</dt>
+    
+
+    </dl>
+    <h3>Devanagari Sangam MN</h3>
+        <dl>
+        <dt style="font-family:DevanagariSangamMN">DevanagariSangamMN</dt>
+        </dl>
+        <dt style="font-family:DevanagariSangamMN-Bold">DevanagariSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Didot</h3>
+        <dl>
+        <dt style="font-family:Didot">Didot</dt>
+
+        <dt style="font-family:Didot-Bold">Didot-Bold</dt>
+
+        <dt style="font-family:Didot-Italic">Didot-Italic</dt>
+
+<h3>Euphemia UCAS</h3>
+        <dl>
+        <dt style="font-family:EuphemiaUCAS">EuphemiaUCAS</dt>
+        </dl>
+        <dt style="font-family:EuphemiaUCAS-Bold">EuphemiaUCAS-Bold</dt>
+        </dl>
+        <dt style="font-family:EuphemiaUCAS-Italic">EuphemiaUCAS-Italic</dt>
+        
+
+    </dl>
+    <h3>Futura</h3>
+        <dl>
+        <dt style="font-family:Futura-CondensedExtraBold">Futura-CondensedExtraBold</dt>
+    </dl>
+        <dt style="font-family:Futura-CondensedMedium">Futura-CondensedMedium</dt>
+    </dl>
+        <dt style="font-family:Futura-Medium">Futura-Medium</dt>
+    </dl>
+        <dt style="font-family:Futura-MediumItalic">Futura-MediumItalic</dt>
+    
+
+    </dl>
+    <h3>Geeza Pro</h3>
+        <dl>
+        <dt style="font-family:GeezaPro">GeezaPro</dt>
+        </dl>
+        <dt style="font-family:GeezaPro-Bold">GeezaPro-Bold</dt>
+        
+
+    </dl>
+    <h3>Georgia</h3>
+        <dl>
+        <dt style="font-family:Georgia">Georgia</dt>
+    </dl>
+        <dt style="font-family:Georgia-Bold">Georgia-Bold</dt>
+    </dl>
+        <dt style="font-family:Georgia-BoldItalic">Georgia-BoldItalic</dt>
+    </dl>
+        <dt style="font-family:Georgia-Italic">Georgia-Italic</dt>
+    
+
+    </dl>
+    <h3>Gill Sans</h3>
+        <dl>
+        <dt style="font-family:GillSans">GillSans</dt>
+        </dl>
+        <dt style="font-family:GillSans-Bold">GillSans-Bold</dt>
+        </dl>
+        <dt style="font-family:GillSans-BoldItalic">GillSans-BoldItalic</dt>
+        </dl>
+        <dt style="font-family:GillSans-Italic">GillSans-Italic</dt>
+    </dl>
+        <dt style="font-family:GillSans-Light">GillSans-Light</dt>
+    </dl>
+        <dt style="font-family:GillSans-LightItalic">GillSans-LightItalic</dt>
+    
+
+    </dl>
+    <h3>Gujarati Sangam MN</h3>
+        <dl>
+        <dt style="font-family:GujaratiSangamMN">GujaratiSangamMN</dt>
+        </dl>
+        <dt style="font-family:GujaratiSangamMN-Bold">GujaratiSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Gurmukhi MN</h3>
+        <dl>
+        <dt style="font-family:GurmukhiMN">GurmukhiMN</dt>
+    </dl>
+        <dt style="font-family:GurmukhiMN-Bold">GurmukhiMN-Bold</dt>
+    
+
+    </dl>
+    <h3>Helvetica</h3>
+        <dl>
+        <dt style="font-family:Helvetica">Helvetica</dt>
+        </dl>
+        <dt style="font-family:Helvetica-Bold">Helvetica-Bold</dt>
+        </dl>
+        <dt style="font-family:Helvetica-BoldOblique">Helvetica-BoldOblique</dt>
+        </dl>
+        <dt style="font-family:Helvetica-Light">Helvetica-Light</dt>
+        </dl>
+        <dt style="font-family:Helvetica-LightOblique">Helvetica-LightOblique</dt>
+        </dl>
+        <dt style="font-family:Helvetica-Oblique">Helvetica-Oblique</dt>
+        
+
+    </dl>
+    <h3>Helvetica Neue</h3>
+        <dl>
+        <dt style="font-family:HelveticaNeue">HelveticaNeue</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-Bold">HelveticaNeue-Bold</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-BoldItalic">HelveticaNeue-BoldItalic</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-CondensedBlack">HelveticaNeue-CondensedBlack</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-CondensedBold">HelveticaNeue-CondensedBold</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-Italic">HelveticaNeue-Italic</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-Light">HelveticaNeue-Light</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-LightItalic">HelveticaNeue-LightItalic</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-Medium">HelveticaNeue-Medium</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-UltraLight">HelveticaNeue-UltraLight</dt>
+    </dl>
+        <dt style="font-family:HelveticaNeue-UltraLightItalic">HelveticaNeue-UltraLightItalic</dt>
+    
+
+    </dl>
+    <h3>Hiragino Kaku Gothic ProN</h3>
+        <dl>
+        <dt style="font-family:HiraKakuProN-W3">HiraKakuProN-W3</dt>
+        </dl>
+        <dt style="font-family:HiraKakuProN-W6">HiraKakuProN-W6</dt>
+        
+
+    </dl>
+    <h3>Hiragino Mincho ProN</h3>
+        <dl>
+        <dt style="font-family:HiraMinProN-W3">HiraMinProN-W3</dt>
+
+        <dt style="font-family:HiraMinProN-W6">HiraMinProN-W6</dt>
+        
+
+    </dl>
+    <h3>Hoefler Text</h3>
+        <dl>
+        <dt style="font-family:HoeflerText-Black">HoeflerText-Black</dt>
+    </dl>
+        <dt style="font-family:HoeflerText-BlackItalic">HoeflerText-BlackItalic</dt>
+    </dl>
+        <dt style="font-family:HoeflerText-Italic">HoeflerText-Italic</dt>
+    </dl>
+        <dt style="font-family:HoeflerText-Regular">HoeflerText-Regular</dt>
+    
+
+    </dl>
+    <h3>Kailasa</h3>
+        <dl>
+        <dt style="font-family:Kailasa">Kailasa</dt>
+        </dl>
+        <dt style="font-family:Kailasa-Bold">Kailasa-Bold</dt>
+        
+
+    </dl>
+    <h3>Kannada Sangam MN</h3>
+        <dl>
+        <dt style="font-family:KannadaSangamMN">KannadaSangamMN</dt>
+    </dl>
+        <dt style="font-family:KannadaSangamMN-Bold">KannadaSangamMN-Bold</dt>
+    
+
+    </dl>
+    <h3>Malayalam Sangam MN</h3>
+        <dl>
+        <dt style="font-family:MalayalamSangamMN">MalayalamSangamMN</dt>
+        </dl>
+        <dt style="font-family:MalayalamSangamMN-Bold">MalayalamSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Marion</h3>
+        <dl>
+        <dt style="font-family:Marion-Bold">Marion-Bold</dt>
+    </dl>
+        <dt style="font-family:Marion-Italic">Marion-Italic</dt>
+    </dl>
+        <dt style="font-family:Marion-Regular">Marion-Regular</dt>
+    
+
+    </dl>
+    <h3>Marker Felt</h3>
+        <dl>
+        <dt style="font-family:MarkerFelt-Thin">MarkerFelt-Thin</dt>
+        </dl>
+        <dt style="font-family:MarkerFelt-Wide">MarkerFelt-Wide</dt>
+        
+
+    </dl>
+    <h3>Noteworthy</h3>
+        <dl>
+        <dt style="font-family:Noteworthy-Bold">Noteworthy-Bold</dt>
+    </dl>
+        <dt style="font-family:Noteworthy-Light">Noteworthy-Light</dt>
+    
+
+    </dl>
+    <h3>Optima</h3>
+        <dl>
+        <dt style="font-family:Optima-Bold">Optima-Bold</dt>
+        </dl>
+        <dt style="font-family:Optima-BoldItalic">Optima-BoldItalic</dt>
+        </dl>
+        <dt style="font-family:Optima-ExtraBlack">Optima-ExtraBlack</dt>
+        </dl>
+        <dt style="font-family:Optima-Italic">Optima-Italic</dt>
+        <dt style="font-family:Optima-Regular">Optima-Regular</dt>
+    
+
+    </dl>
+    <h3>Oriya Sangam MN</h3>
+        <dl>
+        <dt style="font-family:OriyaSangamMN">OriyaSangamMN</dt>
+        </dl>
+        <dt style="font-family:OriyaSangamMN-Bold">OriyaSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Palatino</h3>
+        <dl>
+        <dt style="font-family:Palatino-Bold">Palatino-Bold</dt>
+    
+
+    
+        <dt style="font-family:Palatino-BoldItalic">Palatino-BoldItalic</dt>
+    </dl>
+        <dt style="font-family:Palatino-Italic">Palatino-Italic</dt>
+    </dl>
+        <dt style="font-family:Palatino-Roman">Palatino-Roman</dt>
+    
+
+    </dl>
+    <h3>Papyrus</h3>
+        <dl>
+        <dt style="font-family:Papyrus">Papyrus</dt>
+        </dl>
+        <dt style="font-family:Papyrus-Condensed">Papyrus-Condensed</dt>
+        
+
+    </dl>
+    <h3>Party LET</h3>
+        <dl>
+        <dt style="font-family:PartyLetPlain">PartyLetPlain</dt>
+    
+
+    </dl>
+    <h3>Sinhala Sangam MN</h3>
+        <dl>
+        <dt style="font-family:SinhalaSangamMN">SinhalaSangamMN</dt>
+        </dl>
+        <dt style="font-family:SinhalaSangamMN-Bold">SinhalaSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Snell Roundhand</h3>
+        <dl>
+        <dt style="font-family:SnellRoundhand">SnellRoundhand</dt>
+        <dt style="font-family:SnellRoundhand-Black">SnellRoundhand-Black</dt>
+    </dl>
+        <dt style="font-family:SnellRoundhand-Bold">SnellRoundhand-Bold</dt>
+    
+
+    </dl>
+    <h3>Heiti SC</h3>
+        <dl>
+        <dt style="font-family:STHeitiSC-Light">STHeitiSC-Light</dt>
+        </dl>
+        <dt style="font-family:STHeitiSC-Medium">STHeitiSC-Medium</dt>
+        
+
+    </dl>
+    <h3>Heiti TC</h3>
+        <dl>
+        <dt style="font-family:STHeitiTC-Light">STHeitiTC-Light</dt>
+    </dl>
+        <dt style="font-family:STHeitiTC-Medium">STHeitiTC-Medium</dt>
+        
+
+    </dl>
+    <h3>Symbol</h3>
+        <dl>
+        <dt style="font-family:Symbol">Symbol</dt>
+    
+
+    </dl>
+    <h3>Tamil Sangam MN</h3>
+        <dl>
+        <dt style="font-family:TamilSangamMN">TamilSangamMN</dt>
+        </dl>
+        <dt style="font-family:TamilSangamMN-Bold">TamilSangamMN-Bold</dt>
+        
+
+    </dl>
+    <h3>Telugu Sangam MN</h3>
+        <dl>
+        <dt style="font-family:TeluguSangamMN">TeluguSangamMN</dt>
+    </dl>
+        <dt style="font-family:TeluguSangamMN-Bold">TeluguSangamMN-Bold</dt>
+    
+
+    </dl>
+    <h3>Thonburi</h3>
+        <dl>
+        <dt style="font-family:Thonburi">Thonburi</dt>
+        </dl>
+        <dt style="font-family:Thonburi-Bold">Thonburi-Bold</dt>
+        
+
+    </dl>
+    <h3>Times New Roman</h3>
+        <dl>
+        <dt style="font-family:TimesNewRomanPS-BoldItalicMT">TimesNewRomanPS-BoldItalicMT</dt>
+    </dl>
+        <dt style="font-family:TimesNewRomanPS-BoldMT">TimesNewRomanPS-BoldMT</dt>
+    </dl>
+        <dt style="font-family:TimesNewRomanPS-ItalicMT">TimesNewRomanPS-ItalicMT</dt>
+    </dl>
+        <dt style="font-family:TimesNewRomanPSMT">TimesNewRomanPSMT</dt>
+    
+
+    </dl>
+    <h3>Trebuchet MS</h3>
+        <dl>
+        <dt style="font-family:Trebuchet-BoldItalic">Trebuchet-BoldItalic</dt>
+        </dl>
+        <dt style="font-family:TrebuchetMS">TrebuchetMS</dt>
+        </dl>
+        <dt style="font-family:TrebuchetMS-Bold">TrebuchetMS-Bold</dt>
+        </dl>
+        <dt style="font-family:TrebuchetMS-Italic">TrebuchetMS-Italic</dt>
+        
+
+    </dl>
+    <h3>Verdana</h3>
+        <dl>
+        <dt style="font-family:Verdana">Verdana</dt>
+
+        <dt style="font-family:Verdana-Bold">Verdana-Bold</dt>
+
+        <dt style="font-family:Verdana-BoldItalic">Verdana-BoldItalic</dt>
+
+        <dt style="font-family:Verdana-Italic">Verdana-Italic</dt>
+
+    </dl>
+    <h3>Zapf Dingbats</h3>
+        <dl>
+        <dt style="font-family:ZapfDingbatsITC">ZapfDingbatsITC</dt>
+    
+
+    </dl>
+    <h3>Zapfino</h3>
+        <dl>
+        <dt style="font-family:Zapfino">Zapfino</dt>
+    </section>
+</div>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

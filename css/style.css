@@ -456,7 +456,6 @@ h3 {
 		background: #999;
 		margin: 0;
 		border-radius: 0;
-		box-shadow: none !important;
 	}
 	#main nav .selected {
 		background: red;
