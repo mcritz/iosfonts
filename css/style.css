@@ -113,7 +113,7 @@ header nav li:active {
 	background: red;
 	box-shadow: 0 1px 0px rgba(0,0,0,.5);
 }
-header input[type="search"] {
+header input {
 	font-size: large;
 	margin: 1em 0;
 	width: 80%;
@@ -439,10 +439,27 @@ h3 {
 		float: right;
 		margin: 2% 0 0 1%;
 	}
-	#main nav input[type="search"] {
-		margin: 5% 0;
+	#main nav span, #main nav ul {
+		text-align: right;
 	}
-	#main article {
+	#main nav input {
+		clear: left;
+		width: 45%;
+		margin: 2% 0;
+		float: right;
+	}
+	#main nav input[type="text"] {
+		margin: 2% 2% 0 0;
+		float: left;
+	}
+	#main nav input[type="search"] {
+		display: block;
+		/* margin: 22px 0 0 0;*/
+	}
+	.count {
+		clear: both;
+		text-align: center;
+		font-size: 1.3em;
 	}
 	section#iosfonts {
 		width: 100%;
@@ -464,14 +481,14 @@ h3 {
 		margin: 1% 0;
 	}
 	#main nav ul {
-		width: 48%;
+		width: 100%;
 		float: left;
 	}
 	#main nav li {
 		display: block;
 		float: left;
 		text-align: center;
-		width: 30%;
+		width: 33%;
 		color: #eee;
 		background: #999;
 		margin: 0;
@@ -483,20 +500,31 @@ h3 {
 	}
 	#main nav li:first-child {
 		border-radius: 1em 0 0 1em;
+		border-right: 1px solid #eee;
 	}
 	#main nav li:last-child {
 		border-radius: 0 1em 1em 0;
+		border-left: 1px solid #eee;
 	}
 	#main nav input[type="search"] {
-		width: 48%;
+		width: 99%;
+		margin: 1em auto;
 		float: left;
-		margin: 0;
+	}
+	#main nav input#live_preview {
+		display: none;
 	}
 	header article {
 		display: none;
 	}
 	table, table * {
 		box-sizing: border-box !important;
+	}
+	table {
+		width: 70%;
+	}
+	.font_face {
+		font-size: 1em;
 	}
 	#main hgroup {
 		width: 100%;
