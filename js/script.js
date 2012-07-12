@@ -14,22 +14,22 @@ $.extend($.expr[':'], {
 
 $(document).ready(function(){
 // Live text preview
-$('nav').on('keyup', 'input[name=live_preview]', function(){
+$('nav').on('keyup', 'input#live_preview', function(){
 	if($(this).val() == ''){
-		$('.preview').each(function(){
+		$('.font_face').each(function(){
 			$(this).text($(this).attr('style').split(':')[1]);
 		});	
 	}else {
-		$('.preview').text($(this).val());
+		$('.font_face').text($(this).val());
 	}			
 });
 
+// TODO: add Font-Family count
+// <div class="font_families">Families: <b></b></div>
 
-$('header#main').append('<div class="count"><div class="font_families">Families: <b></b></div><div class="font_faces">Faces: <b></b></div></div>');
+$('header#main').append('<div class="count"><div class="font_faces">Faces: <b></b></div></div>');
 countFonts();
-/* 	$('hgroup').append('<p>jQuery is loaded.</p>'); */
 
-/* $('nav .ios50').toggleClass('selected'); */
 $('nav li').click(function(){
   $('nav li').removeClass('selected');
   selectedOS = $(this).attr('class');
@@ -88,7 +88,7 @@ function searchPage(searchTerm){
   } else if(searchTerm.length > 0){
     $('tr:containsi("' + searchTerm + '")').fadeIn(150);
     $('tr:not(:containsi("' + searchTerm + '"))').fadeOut(250);
-    $('tr').find(searchTerm).css('color','red');
+    //	$('tr:visible').prevUntil('tr.section_header').show();
   } else {
     clearSearch();
   }
@@ -101,16 +101,16 @@ function clearSearch() {
   countFonts();
 }
 
-// count fonts
 function countFonts() {
 	numberOfFontFamilies = $('td.rowheader').filter(':visible').length;
 	numberOfFontFaces = $('tr').not('.unavailable').has('td').not('.rowheader').filter(':visible').length; // .has(!$('td.rowheader')).filter(':visible').
-	console.log(' numberOfFontFamilies: ' + numberOfFontFamilies + '\n numberOfFontFaces: ' + numberOfFontFaces);
+	// console.log(' numberOfFontFamilies: ' + numberOfFontFamilies + '\n numberOfFontFaces: ' + numberOfFontFaces);
 	$('.count .font_families b').html(numberOfFontFamilies);
 	$('.count .font_faces b').html(numberOfFontFaces);
 }
 
-// ga
+// ga -- disabled for code review with Cherry
+/* 
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-5874947-7']);
 _gaq.push(['_trackPageview']);
@@ -120,3 +120,4 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+*/
