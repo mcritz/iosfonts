@@ -1,6 +1,7 @@
 var previousSelectedOS ='';
 var selectedOS = '';
 var searchActive = false;
+var previewActive = false;
 
 // Extend :contains() method to :containsi, a case-insensitive version of :contains()
 $.extend($.expr[':'], {
@@ -14,11 +15,13 @@ $.extend($.expr[':'], {
 
 $(document).ready(function(){
 // Live text preview
-$('nav').on('keyup', 'input#live_preview', function(){
+$('nav').on('keyup', '#live_preview', function(){
+	previewActive = true;
 	if($(this).val() == ''){
 		$('.font_face').each(function(){
 			$(this).text($(this).attr('style').split(':')[1]);
-		});	
+		});
+		previewActive = false;
 	}else {
 		$('.font_face').text($(this).val());
 	}			
@@ -68,6 +71,12 @@ $('nav li').click(function(){
 
 // search
 $('input[type="search"]').keyup(function(){
+	if(previewActive == true) {
+		$('#live_preview').val('');
+		$('.font_face').each(function(){
+			$(this).text($(this).attr('style').split(':')[1]);
+		});
+	}
 	theSearch = $('input[type="search"]').val();
 	// console.log('theSearch: ' + theSearch);
 	searchPage(theSearch);
