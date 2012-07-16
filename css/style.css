@@ -455,6 +455,7 @@ h3 {
     clear:both;
 	padding: .5em;
 	margin: 1em 0 0 0;
+	border-radius: .5em;
 }
 
 @media only screen and (max-width: 768px) {
