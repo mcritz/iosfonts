@@ -325,8 +325,8 @@ tr:hover td{
 	margin: 0px;
 	padding: 1%;
 }
-.font_face {
-
+.font_face.preview {
+	font-size: 1.5em;
 }
 .rowheader, .label_iphone, .label_ipad {
 	color: #b1b8bf;

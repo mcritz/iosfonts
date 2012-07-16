@@ -87,6 +87,12 @@ $('input[type="search"]').on("search", function(e){
 	//alert('hi')}
 	clearSearch();
 });
+
+// Large fonts
+$('.font_face').click(function(){
+	$(this).toggleClass('preview');
+});
+
 }); // end drf
 
 function setup(){
