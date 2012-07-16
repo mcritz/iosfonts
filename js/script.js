@@ -14,7 +14,9 @@ $.extend($.expr[':'], {
 
 
 $(document).ready(function(){
+setup();
 // Live text preview
+
 $('nav').on('keyup', '#live_preview', function(){
 	previewActive = true;
 	if($(this).val() == ''){
@@ -30,39 +32,36 @@ $('nav').on('keyup', '#live_preview', function(){
 // TODO: add Font-Family count
 // <div class="font_families">Families: <b></b></div>
 
-$('header#main').append('<div class="count"><div class="font_faces">Faces: <b></b></div></div>');
-countFonts();
-
-$('nav li').click(function(){
-  $('nav li').removeClass('selected');
-  selectedOS = $(this).attr('class');
-  
+$('nav select').change(function(){
+  // $('nav li').removeClass('selected');
+  selectedOS = $(this).val();
+  // console.log('selectedOS: ' + selectedOS);
   if (selectedOS == previousSelectedOS){
  	 $('tr').removeClass('unavailable');
  	 previousSelectedOS = '';
  	 countFonts();
  	 return;
   } else {
-	  $(this).toggleClass('selected');
+	  // $(this).toggleClass('selected');
 	  $('tr').removeClass('unavailable');
 	  // console.log('selectedOS: ' + selectedOS);
 	  switch(selectedOS){
-	    case 'ios30':
+	    case 'iOS 3':
 	      $('tbody .ios40' || 'tbody .ios50' || 'tbody .ios60').addClass('unavailable');
 	      // $('.ios50').addClass('unavailable');
 	      break;
-	    case 'ios40':
+	    case 'iOS 4':
 	    	$('td:contains(5.0)').closest('tr').addClass('unavailable');
 	    	$('td:contains(6.0)').closest('tr').addClass('unavailable');
 			break;
-	    case 'ios50':
+	    case 'iOS 5':
 	    	$('td:contains(6.0)').closest('tr').addClass('unavailable');
 	    	break;
-	    case 'ios60':
+	    case 'iOS 6':
 	    	$('td.dead').closest('tr').addClass('unavailable');
 	    	break;
 	    default:
-	      alert('Oops. There was an error.');
+	     	$('tr').removeClass('unavailable');
 	  }
 	  previousSelectedOS = selectedOS;
 	  countFonts();
@@ -89,6 +88,12 @@ $('input[type="search"]').on("search", function(e){
 	clearSearch();
 });
 }); // end drf
+
+function setup(){
+	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>260</b></div></div>');
+	$('nav select').val('iOS 6');
+}
+
 
 function searchPage(searchTerm){
   if(searchTerm.length == 0){
@@ -118,8 +123,6 @@ function countFonts() {
 	$('.count .font_faces b').html(numberOfFontFaces);
 }
 
-// ga -- disabled for code review with Cherry
-/* 
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-5874947-7']);
 _gaq.push(['_trackPageview']);
@@ -129,4 +132,3 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-*/

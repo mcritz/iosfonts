@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="iPhone, iPad, iOS, typography, font, iPod" />
     <meta name="author" content="Michael Critz" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 </head>
 <body>
 <div id="wrapper">
@@ -21,28 +21,20 @@
 </hgroup>
 <nav>
 	<div class="target">
-	<span>Target:</span>
-	<ul>
-		<li class="ios40">iOS 4</li>
-		<li class="ios50">iOS 5</li>
-		<li class="ios60">iOS 6</li>
-	</ul>
+	<span>Available since</span>
+	<select>
+		<option>All</option>
+		<option class="ios40">iOS 4</option>
+		<option class="ios50">iOS 5</option>
+		<option class="ios60">iOS 6</option>
+	</select>
 	</div>
-	<input type="search" placeholder="search" results="5" autosave=iosfonts_cached_search_query />
+	<input type="search" placeholder="Search Fonts" results="5" autosave=iosfonts_cached_search_query />
 	
 	<textarea id="live_preview" type="text" placeholder="Preview"></textarea>
 
 </nav>
 </header>
-<!-- TODO: add aside for github links, license, credits
-<aside>
-<article>
-	<h1>Thank you</h1>
-	<p>Read about open-source.</p>
-<p>Over the last two years I&rsquo;ve recieved a lot of kind words. It&rsquo;s clear that a many developers and designers have come to rely on this site.</p>  <p>I have taken all your suggestions to heart and tried to make the best site to fit your needs.</p>
-	<p>It is a lot more responsibility than I ever had time to give you. Moving forward, I am making three big improvements to the site. The suggestion process is now formalized through Pivitol. The source code is on github so that the community can make improvements directly. As of right now this site is a community project licensed under GPL. 
-</article>
-</aside> -->
 <section id="iosfonts">
 <table>
 	<tr class="section_header"><td class="rowheader">Academy Engraved LET</td><td class="label_iphone"></td><td class="label_ipad"></td></tr>
@@ -440,7 +432,7 @@
 	<p><a href="https://www.michaelcritz.com/">Michael Critz</a> made this. It&rsquo;s not perfect. Suggestions? <a href="https://twitter.com/mike_critz/">Tweet me</a>. Feeling helpful? Contribute on <a href="https://github.com/mcritz/iosfonts">github</a>.</p>
 </footer>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="js/script.js"></script>
 </body>

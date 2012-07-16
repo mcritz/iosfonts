@@ -87,11 +87,28 @@ header#main, aside {
 header#main {
 	position: fixed;
 }
+.target {
+	background: #fafafa;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #aaa;
+	text-align: center;
+	border-radius: 2em;
+	padding: .2em;
+	width: 80%;
+	box-shadow: 0 -2px 15px #ddd inset;
+}
+.target span {
+	color: #666;
+	font-size: .8em;
+	font-weight: 700;
+	text-shadow: 0 1px 0 #fff;
+	margin: 2px 0 0 0;
+}
 header nav ul, header nav ul li {
 	list-style-type: none;
 	display: inline-block;
 	box-shadow: 0 0 0 rgba(0,0,0,0);
-	-webkit-transition: all .3s ease-out;
+/* 	-webkit-transition: all .3s ease-out; */
 }
 header nav li {
 	color: #888;
@@ -121,7 +138,7 @@ header input {
 header input[type="search"] {
 	font-size: large;
 }
-header input[type="search"]:focus {
+header input[type="search"]:focus, 	#main nav select:focus {
 	border: 1px solid #db242f !important;
 	outline: #db242f;
 }
@@ -205,7 +222,7 @@ article h1 {
 	list-style: none;
 	display: block;
 	float: left;
-	-webkit-transition: all .2s ease-in-out;
+	/* -webkit-transition: all .2s ease-in-out; */
 }
 .os li {
 	background: #f4f4f4;
@@ -290,11 +307,13 @@ table {
         
 tr {
 	margin: 0px;
-	background-color: #f4faff;
-	padding: 5px;
+	background: #fafafa;
+	padding: 0;
 }
 td {
-	-webkit-transition: all .3s ease-in-out;
+	padding: 0;
+	line-height: .8em;
+	/* -webkit-transition: all .3s ease-in-out; */
 }
 tr:hover td{
 	color: #000;
@@ -302,7 +321,7 @@ tr:hover td{
 }
 .rowheader, .font_face {
 	width: 80%;
-	font-size: 1.5em;
+	font-size: 1em;
 	margin: 0px;
 	padding: 1%;
 }
@@ -310,6 +329,7 @@ tr:hover td{
 
 }
 .rowheader, .label_iphone, .label_ipad {
+	color: #b1b8bf;
 	background: -webkit-gradient(
 	    linear,
 	    left bottom,
@@ -324,9 +344,15 @@ tr:hover td{
 	border-top-left-radius: 5px;
 	padding: 0;
 }
+.rowheader {
+	font-size: .7em;
+	text-shadow: 0 1px 0 #fff;
+}
+.section_header:hover *{
+	color: #b1b8bf;
+}
 .label_iphone, .label_ipad {
 	vertical-align: middle;
-	color: #b1b8bf;
 	font-family: "EntypoRegular";
 	background: -webkit-gradient(
 	    linear,
@@ -346,7 +372,7 @@ tr:hover td{
 	vertical-align: middle;
 	padding: 0 4px;
 	position: relative;
-	top:-5px;
+	top:-6px;
 	width: 5%;
 }
 .label_iphone:before {
@@ -356,6 +382,7 @@ tr:hover td{
 	border-top-right-radius: 5px;	
 }
 .label_ipad:before { 
+	top: -8px;
 	font-size: 1.4em;
 	content: "o";
 }
@@ -451,8 +478,17 @@ h3 {
 		float: right;
 		margin: 2% 0 0 1%;
 	}
+	textarea {
+		border-radius: 2px;
+	}
+	.target {
+		width: 100%;
+	}
 	#main nav span, #main nav ul {
 		text-align: right;
+	}
+	#main nav select {
+		outline: none;
 	}
 	#main nav input, #main nav textarea {
 		font-size: 12px;
@@ -487,7 +523,7 @@ h3 {
 		font-size: .8em;
 	}
 	#main nav span {
-		display: none;
+/* 		display: none; */
 	}
 	#main nav {
 		width: 100%;
@@ -537,14 +573,20 @@ h3 {
 		display: none;
 	}
 	table, table * {
-		box-sizing: border-box !important;
+/* 		box-sizing: border-box !important; */
 	}
 	table {
-		width: 90%;
+		width: 60% !important;
 		margin: 0 auto;
+	}
+	.rowheader, .font_face {
+		width: auto !important;
+		overflow: hidden;
+		text-overflow: clip !important;
 	}
 	.font_face {
 		font-size: 1em;
+		width: auto !important;
 	}
 	#main hgroup {
 		width: 100%;
