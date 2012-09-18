@@ -1,7 +1,7 @@
 var previousSelectedOS ='';
 var selectedOS = '';
-var searchActive = false;
 var previewActive = false;
+var searchActive = false;
 
 // Extend :contains() method to :containsi, a case-insensitive version of :contains()
 $.extend($.expr[':'], {
@@ -82,25 +82,6 @@ $('input[type="search"]').keyup(function(){
 	searchActive = true;
 	countFonts();
 });
-// clear search
-$('input[type="search"]').on("search", function(e){
-	//alert('hi')}
-	clearSearch();
-});
-
-// Large fonts
-$('.font_face').click(function(){
-	$(this).toggleClass('preview');
-});
-
-}); // end drf
-
-function setup(){
-	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>260</b></div></div>');
-	$('nav select').val('iOS 6');
-}
-
-
 function searchPage(searchTerm){
   if(searchTerm.length == 0){
     clearSearch();
@@ -114,11 +95,27 @@ function searchPage(searchTerm){
   }
 }
 
+// clear search
+$('input[type="search"]').on("search", function(e){
+	clearSearch();
+});
 function clearSearch() {
   $('input[type="search"]').val('');
   $('tr').fadeIn(250);
   searchActive = false;
   countFonts();
+}
+
+// Large fonts
+$('.font_face').click(function(){
+	$(this).toggleClass('preview');
+});
+
+}); // end drf
+
+function setup(){
+	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>260</b></div></div>');
+	$('nav select').val('iOS 6');
 }
 
 function countFonts() {
