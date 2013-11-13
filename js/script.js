@@ -47,21 +47,25 @@ $('nav select').change(function(){
 	  // console.log('selectedOS: ' + selectedOS);
 	  switch(selectedOS){
 	    case 'iOS 3':
-	      $('tbody .ios40' || 'tbody .ios50' || 'tbody .ios60').addClass('unavailable');
+	      $('tbody .ios40' || 'tbody .ios50' || 'tbody .ios60' || 'tbody .ios70').addClass('unavailable');
 	      // $('.ios50').addClass('unavailable');
 	      break;
 	    case 'iOS 4':
-	    	$('td:contains(5.0)').closest('tr').addClass('unavailable');
-	    	$('td:contains(6.0)').closest('tr').addClass('unavailable');
+            $('td:contains(5.0)').closest('tr').addClass('unavailable');
+            $('td:contains(6.0)').closest('tr').addClass('unavailable');
+			$('td:contains(7.0)').closest('tr').addClass('unavailable');
 			break;
 	    case 'iOS 5':
-	    	$('td:contains(6.0)').closest('tr').addClass('unavailable');
+            $('td:contains(6.0)').closest('tr').addClass('unavailable');
+			$('td:contains(7.0)').closest('tr').addClass('unavailable');
 	    	break;
 	    case 'iOS 6':
-	    	$('td.dead').closest('tr').addClass('unavailable');
+			$('td:contains(7.0)').closest('tr').addClass('unavailable');
 	    	break;
+		case 'iOS 7':
+			$('td.dead').closest('tr').addClass('unavailable');
 	    default:
-	     	$('tr').removeClass('unavailable');
+			$('tr').removeClass('unavailable');
 	  }
 	  previousSelectedOS = selectedOS;
 	  countFonts();
@@ -115,7 +119,7 @@ $('.font_face').click(function(){
 
 function setup(){
 	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>260</b></div></div>');
-	$('nav select').val('iOS 6');
+	$('nav select').val('iOS 7');
 }
 
 function countFonts() {
