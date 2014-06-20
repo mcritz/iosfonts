@@ -21,7 +21,7 @@ $('nav').on('keyup', '#live_preview', function(){
 	previewActive = true;
 	if($(this).val() == ''){
 		$('.font_face').each(function(){
-			$(this).text($(this).attr('style').split(':')[1]);
+			$(this).text($(this).attr('style').split(':')[1].split(',')[0]);
 		});
 		previewActive = false;
 	}else {

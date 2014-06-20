@@ -34,6 +34,15 @@
 /* fix buttons height */
   line-height: 1em;
 }
+@font-face {
+    font-family: AdobeBlank;
+    src: url('type/AdobeBlank.eot');
+    src: url('type/AdobeBlank.eot?#iefix') format('embedded-opentype'),
+         url('type/AdobeBlank.otf.woff') format('woff'),
+         url('type/AdobeBlank.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* @end */
 * {
