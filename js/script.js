@@ -42,28 +42,28 @@ $('nav select').change(function(){
  	 countFonts();
  	 return;
   } else {
-	  // $(this).toggleClass('selected');
 	  $('tr').removeClass('unavailable');
 	  // console.log('selectedOS: ' + selectedOS);
 	  switch(selectedOS){
 	    case 'iOS 3':
-	      $('tbody .ios40' || 'tbody .ios50' || 'tbody .ios60' || 'tbody .ios70').addClass('unavailable');
-	      // $('.ios50').addClass('unavailable');
+	      $('tbody .ios40' || 'tbody .ios50' || 'tbody .ios60' || 'tbody .ios70' || 'tbody .ios80').addClass('unavailable');
 	      break;
 	    case 'iOS 4':
-            $('td:contains(5.0)').closest('tr').addClass('unavailable');
-            $('td:contains(6.0)').closest('tr').addClass('unavailable');
-			$('td:contains(7.0)').closest('tr').addClass('unavailable');
+            $('td:contains(5.0), td:contains(6.0), td:contains(7.0), td:contains(8.0)').closest('tr').addClass('unavailable');
 			break;
 	    case 'iOS 5':
-            $('td:contains(6.0)').closest('tr').addClass('unavailable');
-			$('td:contains(7.0)').closest('tr').addClass('unavailable');
+            $('td:contains(6.0), td:contains(7.0), td:contains(8.0)').closest('tr').addClass('unavailable');
 	    	break;
 	    case 'iOS 6':
-			$('td:contains(7.0)').closest('tr').addClass('unavailable');
+			$('td:contains(7.0), td:contains(8.0)').closest('tr').addClass('unavailable');
 	    	break;
 		case 'iOS 7':
-			$('td.dead').closest('tr').addClass('unavailable');
+			$('td:contains(8.0)').closest('tr').addClass('unavailable');
+			$('td.dead-70').closest('tr').addClass('unavailable');
+			break;
+		case 'iOS 8':
+			// future handling
+			break;
 	    default:
 			$('tr').removeClass('unavailable');
 	  }
@@ -118,15 +118,12 @@ $('.font_face').click(function(){
 }); // end drf
 
 function setup(){
-	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>260</b></div></div>');
-	$('nav select').val('iOS 7');
+	$('header#main').append('<div class="count"><div class="font_faces">Faces: <b>317</b></div></div>');
+	$('nav select').val('iOS 8');
 }
 
 function countFonts() {
-	numberOfFontFamilies = $('td.rowheader').filter(':visible').length;
-	numberOfFontFaces = $('tr').not('.unavailable').has('td').not('.rowheader').filter(':visible').length; // .has(!$('td.rowheader')).filter(':visible').
-	// console.log(' numberOfFontFamilies: ' + numberOfFontFamilies + '\n numberOfFontFaces: ' + numberOfFontFaces);
-	$('.count .font_families b').html(numberOfFontFamilies);
+	var numberOfFontFaces = $('tr').not('.unavailable').has('td').not('.rowheader').filter(':visible').length;
 	$('.count .font_faces b').html(numberOfFontFaces);
 }
 
