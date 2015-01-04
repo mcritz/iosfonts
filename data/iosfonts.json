@@ -1,0 +1,1757 @@
+[
+	{ "family_name" : "Academy Engraved LET",
+		"faces" : [
+				{
+					"font_face" 	: "AcademyEngravedLetPlain",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Al Nile",
+		"faces" : [
+				{
+					"font_face" 	: "AlNile-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AlNile",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "American Typewriter",
+		"faces" : [
+				{
+					"font_face" 	: "AmericanTypewriter",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AmericanTypewriter-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AmericanTypewriter-Condensed",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AmericanTypewriter-CondensedBold",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AmericanTypewriter-CondensedLight",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AmericanTypewriter-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Apple Color Emoji",
+		"faces" : [
+				{
+					"font_face" 	: "AppleColorEmoji",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Apple SD Gothic Neo",
+		"faces" : [
+				{
+					"font_face" 	: "AppleSDGothicNeo-Thin",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-Light",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-Regular",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-Medium",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-SemiBold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AppleSDGothicNeo-Medium",
+					"iphone" 		: 4.3,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Arial",
+		"faces" : [
+				{
+					"font_face" 	: "ArialMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Arial-BoldItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Arial-BoldMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Arial-ItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Arial Hebrew",
+		"faces" : [
+				{
+					"font_face" 	: "ArialHebrew",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "ArialHebrew-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "ArialHebrew-Light",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Arial Rounded MT Bold",
+		"faces" : [
+				{
+					"font_face" 	: "ArialRoundedMTBold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Avenir",
+		"faces" : [
+				{
+					"font_face" 	: "Avenir-Black",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-BlackOblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Book",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-BookOblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Heavy",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-HeavyOblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Light",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-LightOblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Medium",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-MediumOblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Oblique",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Avenir-Roman",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Avenir Next",
+		"faces" : [
+				{
+					"font_face" 	: "AvenirNext-Bold",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-BoldItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-DemiBold",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-DemiBoldItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-Heavy",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-HeavyItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-Italic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-Medium",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-MediumItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-Regular",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-UltraLight",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNext-UltraLightItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Avenir Next Condensed",
+		"faces" : [
+				{
+					"font_face" 	: "AvenirNextCondensed-Bold",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-BoldItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-DemiBold",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-DemiBoldItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-Heavy",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-HeavyItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-Italic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-Medium",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-MediumItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-Regular",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-UltraLight",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "AvenirNextCondensed-UltraLightItalic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Bangla Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "BanglaSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BanglaSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Baskerville",
+		"faces" : [
+				{
+					"font_face" 	: "Baskerville",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Baskerville-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Baskerville-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Baskerville-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Baskerville-SemiBold",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Baskerville-SemiBoldItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Bodoni Ornaments",
+		"faces" : [
+				{
+					"font_face" 	: "BodoniOrnamentsITCTT",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Bodoni 72",
+		"faces" : [
+				{
+					"font_face" 	: "BodoniSvtyTwoITCTT-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BodoniSvtyTwoITCTT-Book",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BodoniSvtyTwoITCTT-BookIta",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Bodoni 72 Oldstyle",
+		"faces" : [
+				{
+					"font_face" 	: "BodoniSvtyTwoOSITCTT-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BodoniSvtyTwoOSITCTT-Book",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BodoniSvtyTwoOSITCTT-BookIt",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "BodoniSvtyTwoSCITCTT-Book",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Bradley Hand",
+		"faces" : [
+				{
+					"font_face" 	: "BradleyHandITCTT-Bold",
+					"iphone" 		: 6.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Chalkboard SE",
+		"faces" : [
+				{
+					"font_face" 	: "ChalkboardSE-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "ChalkboardSE-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "ChalkboardSE-Regular",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Chalkduster",
+		"faces" : [
+				{
+					"font_face" 	: "Chalkduster",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Cochin",
+		"faces" : [
+				{
+					"font_face" 	: "Cochin",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Cochin-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Cochin-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Cochin-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Copperplate",
+		"faces" : [
+				{
+					"font_face" 	: "Copperplate",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Copperplate-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Copperplate-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Courier",
+		"faces" : [
+				{
+					"font_face" 	: "Courier",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Courier-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Courier-BoldOblique",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Courier-Oblique",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Courier New",
+		"faces" : [
+				{
+					"font_face" 	: "CourierNewPS-BoldItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "CourierNewPS-BoldMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "CourierNewPS-ItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "CourierNewPSMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "DB LCD Temp",
+		"faces" : [
+				{
+					"font_face" 	: "DBLCDTempBlack",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null,
+					"depricated"	: 6.0
+				}
+		]
+	},
+	{ "family_name" : "DIN Alternate",
+		"faces" : [
+				{
+					"font_face" 	: "DINAlternate-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "DIN Condensed",
+		"faces" : [
+				{
+					"font_face" 	: "DINCondensed-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Damascus",
+		"faces" : [
+				{
+					"font_face" 	: "DamascusBold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Damascus",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "DamascusLight",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "DamascusMedium",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "DamascusSemiBold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Devanagari Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "DevanagariSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "DevanagariSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Didot",
+		"faces" : [
+				{
+					"font_face" 	: "Didot",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Didot-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Didot-Italic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Diwan Mishafi",
+		"faces" : [
+				{
+					"font_face" 	: "DiwanMishafi",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Euphemia UCAS",
+		"faces" : [
+				{
+					"font_face" 	: "EuphemiaUCAS",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "EuphemiaUCAS-Bold",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "EuphemiaUCAS-Italic",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Farah",
+		"faces" : [
+				{
+					"font_face" 	: "Farah",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Futura",
+		"faces" : [
+				{
+					"font_face" 	: "Futura-CondensedExtraBold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Futura-CondensedMedium",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Futura-Medium",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Futura-MediumItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Geeza Pro",
+		"faces" : [
+				{
+					"font_face" 	: "GeezaPro",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GeezaPro-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Georgia",
+		"faces" : [
+				{
+					"font_face" 	: "Georgia",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Georgia-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Georgia-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Georgia-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Gill Sans",
+		"faces" : [
+				{
+					"font_face" 	: "GillSans",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GillSans-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GillSans-BoldItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GillSans-Italic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GillSans-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GillSans-LightItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Gujarati Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "GujaratiSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GujaratiSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Gurmukhi MN",
+		"faces" : [
+				{
+					"font_face" 	: "GurmukhiMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "GurmukhiMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Heiti SC",
+		"faces" : [
+				{
+					"font_face" 	: "STHeitiSC-Light",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "STHeitiSC-Medium",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Heiti TC",
+		"faces" : [
+				{
+					"font_face" 	: "STHeitiTC-Light",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "STHeitiTC-Medium",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Helvetica",
+		"faces" : [
+				{
+					"font_face" 	: "Helvetica",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Helvetica-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Helvetica-BoldOblique",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Helvetica-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Helvetica-LightOblique",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Helvetica-Oblique",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Helvetica Neue",
+		"faces" : [
+				{
+					"font_face" 	: "HelveticaNeue",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-CondensedBlack",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-CondensedBold",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-LightItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-Medium",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-MediumItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-UltraLight",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-UltraLightItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-Thin",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HelveticaNeue-ThinItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Hiragino Kaku Gothic ProN",
+		"faces" : [
+				{
+					"font_face" 	: "HiraKakuProN-W3",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HiraKakuProN-W6",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Hiragino Mincho ProN",
+		"faces" : [
+				{
+					"font_face" 	: "HiraMinProN-W3",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HiraMinProN-W6",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Hoefler Text",
+		"faces" : [
+				{
+					"font_face" 	: "HoeflerText-Black",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HoeflerText-BlackItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HoeflerText-Italic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "HoeflerText-Regular",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Iowan Old Style",
+		"faces" : [
+				{
+					"font_face" 	: "IowanOldStyle-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "IowanOldStyle-BoldItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "IowanOldStyle-Italic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "IowanOldStyle-Roman",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Kailasa",
+		"faces" : [
+				{
+					"font_face" 	: "Kailasa",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Kailasa-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Kannada Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "KannadaSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "KannadaSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "KhmerSangamMN",
+		"faces" : [
+				{
+					"font_face" 	: "KhmerSangamMN",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "KohinoorDevanagari",
+		"faces" : [
+				{
+					"font_face" 	: "KohinoorDevanagari-Book",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "KohinoorDevanagari-Light",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "KohinoorDevanagari-Medium",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "LaoSangamMN",
+		"faces" : [
+				{
+					"font_face" 	: "LaoSangamMN",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Malayalam Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "MalayalamSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "MalayalamSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Marion",
+		"faces" : [
+				{
+					"font_face" 	: "Marion-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Marion-Italic",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Marion-Regular",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Menlo",
+		"faces" : [
+				{
+					"font_face" 	: "Menlo-BoldItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Menlo-Regular",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Menlo-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Menlo-Italic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Marker Felt",
+		"faces" : [
+				{
+					"font_face" 	: "MarkerFelt-Thin",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "MarkerFelt-Wide",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Noteworthy",
+		"faces" : [
+				{
+					"font_face" 	: "Noteworthy-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Noteworthy-Light",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Optima",
+		"faces" : [
+				{
+					"font_face" 	: "Optima-Bold",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Optima-BoldItalic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Optima-ExtraBlack",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Optima-Italic",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Optima-Regular",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Oriya Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "OriyaSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "OriyaSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Palatino",
+		"faces" : [
+				{
+					"font_face" 	: "Palatino-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Palatino-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Palatino-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Palatino-Roman",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Papyrus",
+		"faces" : [
+				{
+					"font_face" 	: "Papyrus",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Papyrus-Condensed",
+					"iphone" 		: 3.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Party LET",
+		"faces" : [
+				{
+					"font_face" 	: "PartyLetPlain",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Savoye Let Plain",
+		"faces" : [
+				{
+					"font_face" 	: "SavoyeLetPlain",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Sinhala Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "SinhalaSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "SinhalaSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Snell Roundhand",
+		"faces" : [
+				{
+					"font_face" 	: "SnellRoundhand",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "SnellRoundhand-Black",
+					"iphone" 		: 5.0,
+					"ipad"			: 5.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "SnellRoundhand-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Superclarendon",
+		"faces" : [
+				{
+					"font_face" 	: "Superclarendon-Regular",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-BoldItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-Light",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-BlackItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-Italic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-LightItalic",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-Bold",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Superclarendon-Black",
+					"iphone" 		: 7.0,
+					"ipad"			: 7.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Symbol",
+		"faces" : [
+				{
+					"font_face" 	: "Symbol",
+					"iphone" 		: 6.0,
+					"ipad"			: 6.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Tamil Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "TamilSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TamilSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Telugu Sangam MN",
+		"faces" : [
+				{
+					"font_face" 	: "TeluguSangamMN",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TeluguSangamMN-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Thonburi",
+		"faces" : [
+				{
+					"font_face" 	: "Thonburi",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Thonburi-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Thonburi-Light",
+					"iphone" 		: 8.0,
+					"ipad"			: 8.0,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Times New Roman",
+		"faces" : [
+				{
+					"font_face" 	: "TimesNewRomanPS-BoldItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TimesNewRomanPS-BoldMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TimesNewRomanPS-ItalicMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TimesNewRomanPSMT",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Trebuchet MS",
+		"faces" : [
+				{
+					"font_face" 	: "Trebuchet-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TrebuchetMS",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TrebuchetMS-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "TrebuchetMS-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Verdana",
+		"faces" : [
+				{
+					"font_face" 	: "Verdana",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Verdana-Bold",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Verdana-BoldItalic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				},
+				{
+					"font_face" 	: "Verdana-Italic",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Zapf Dingbats",
+		"faces" : [
+				{
+					"font_face" 	: "ZapfDingbatsITC",
+					"iphone" 		: 5.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	},
+	{ "family_name" : "Zapfino",
+		"faces" : [
+				{
+					"font_face" 	: "Zapfino",
+					"iphone" 		: 3.0,
+					"ipad"			: 4.3,
+					"watch"			: null
+				}
+		]
+	}
+]
