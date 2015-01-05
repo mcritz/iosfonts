@@ -7,8 +7,9 @@
 
 requirejs.config({
 	"paths": {
-		"jquery": "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min"
-	}
+		"jquery": "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min"
+	},
+	urlArgs: "bust=" +  (new Date()).getTime()
 });
 
 requirejs(["main"]);

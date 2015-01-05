@@ -12,37 +12,91 @@ define(
 	function(
 		$
 	) {
-		var $section = $('#iosfonts');
-
-		var getIntOrNull = function(val) {
-			return val || 'null';
-		};
-
-		var getFacesArray = function($el) {
-			var face = '';
-			$el.map(function() {
-				face += '\n\t\t\t\t{';
-				face +=	'\n\t\t\t\t\t"font_face" 	: "' + $(this).find('.font_face').text() + '",';
-				face +=	'\n\t\t\t\t\t"iphone" 		: ' + getIntOrNull( $(this).find('.iphone').text() ) + ",";
-				face +=	'\n\t\t\t\t\t"ipad"			: ' + getIntOrNull( $(this).find('.ipad').text() ) + ",";
-				face += '\n\t\t\t\t\t"watch"			: null';
-				face += '\n\t\t\t\t},';
+		var allFonts = {};
+		var $el = $('#iosfonts');
+		var $previewEl = $('#live_preview');
+		var userText = '';
+		
+		var initEvents = function() {
+			$previewEl.on(
+				'change', function() {
+					alert('hi');
+				}
+			)
+		}
+		
+		/**
+		 * itemizeValue
+		 * @param number : Number, String
+		 * returns a dictionary value of display string or version number
+		 * converting null and integers to pretty strings.
+		 **/
+		var itemizeValue = function(value) {
+			var fontStyle = "";
+			var elClass = "small-4 medium-2 columns";
+			
+			if (!value) return '<span class="small-4 medium-2 columns">—</span>';
+			
+			if ((typeof value) != "number") {
+				elClass = "face-name small-12 medium-6 columns";
+    			fontStyle = "style='font-family: " + value + "'; clear:'both'";
+			}
+			
+			if (value % 1 == 0) {
+				value = value + '.0';
+			}
+			
+			return '<span class="' + elClass + '" ' + fontStyle + '>' + value + '</span>';
+		}
+		
+		var renderFontFaces = function(faceData, displayText) {
+			if (!faceData) return;
+			
+			var faces = '';
+			
+			$(faceData).each( function() {
+				faces += '<div class="row">';
+				var elText = displayText ? displayText : this.font_face;
+				faces += itemizeValue(elText)
+				+ itemizeValue(this.iphone)
+				+ itemizeValue(this.ipad)
+				+ itemizeValue(this.watch)
+				+ '</div>'
 			});
-			return face;
+			
+			return faces;
+		}
+		
+		var renderFonts = function($target, data) {
+			var $list = $('<ul></ul>');
+			
+			$(data).each( function() {
+					$list.append('<li><h4 class="row">'
+					+ '<span class="font-name small-12 medium-6 columns">'
+					+ this.family_name + '</span>'
+					+ '<span class="small-4 medium-2 columns"><small>iPhone</small></span>'
+					+ '<span class="small-4 medium-2 columns"><small>iPad</small></span>'
+					+ '<span class="small-4 medium-2 columns"><small> WATCH</small></span>'
+					+ '</h4>'
+					+ renderFontFaces(this.faces, userText)
+					+ '</li>');
+				}
+			);
+			$list.append('</ul>');
+			$target.html($list);
 		};
 
-		var data = '[';
-
-		var familynames = $('dt').map(function() {
-			data += '\n\t{ "family_name" : "' + $(this).text() + '",';
-			data += '\n\t\t';
-			data += '"faces" : [';
-			data += '\n\t\t\t';
-			data += getFacesArray( $(this).nextUntil('dt','dd') );
-			data += '\n\t]},';
-		});
-		data += "]";
-
-		console.log(data);
+		var init = function($el) {
+			$.ajax({
+				url: "data/iosfonts.json",
+				context: document.body
+			}).done(function(data) {
+				allFonts = data;
+				renderFonts($el, allFonts);
+				initEvents();
+			});
+		};
+				
+		init($el);
 	}
 );

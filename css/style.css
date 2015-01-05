@@ -1,0 +1,39 @@
+h4 {
+	font-weight: 100;
+	background: #eee;
+}
+
+.font-name {
+	font-weight: 300;
+	color: #222;
+}
+
+#iosfonts ul {
+	margin-left: 0;
+}
+
+#iosfonts li {
+	margin-bottom: 1em;
+	list-style-type: none;
+}
+
+li span {
+	color: #aaa;
+}
+
+.face-name {
+	color: #555;
+}
+
+#iosfonts li:hover {
+	background: #fafafa;
+}
+
+#iosfont li:hover h4 {
+	color: #111;
+	background: #aaa;
+}
+
+#iosfonts li div.row:hover {
+	background: #f4f4f4;
+}
