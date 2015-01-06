@@ -21,6 +21,7 @@ define(
 			$previewEl.on(
 				'change', function() {
 					alert('hi');
+					renderFonts($el, allFonts, $(this).val());
 				}
 			)
 		}
@@ -67,7 +68,7 @@ define(
 			return faces;
 		}
 		
-		var renderFonts = function($target, data) {
+		var renderFonts = function($target, data, previewText) {
 			var $list = $('<ul></ul>');
 			
 			$(data).each( function() {
@@ -78,7 +79,7 @@ define(
 					+ '<span class="small-4 medium-2 columns"><small>iPad</small></span>'
 					+ '<span class="small-4 medium-2 columns"><small> WATCH</small></span>'
 					+ '</h4>'
-					+ renderFontFaces(this.faces, userText)
+					+ renderFontFaces(this.faces, previewText)
 					+ '</li>');
 				}
 			);
@@ -92,7 +93,7 @@ define(
 				context: document.body
 			}).done(function(data) {
 				allFonts = data;
-				renderFonts($el, allFonts);
+				renderFonts($el, allFonts, userText);
 				initEvents();
 			});
 		};

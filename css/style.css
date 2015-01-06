@@ -19,6 +19,8 @@ h4 {
 
 li span {
 	color: #aaa;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .face-name {
