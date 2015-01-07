@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="383px" height="383px" viewBox="0 0 383 383" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Brand Mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M352.4089,191.7059 C352.4089,280.4719 280.4499,352.4319 191.6829,352.4319 C102.9169,352.4319 30.9569,280.4719 30.9569,191.7059 C30.9569,102.9399 102.9169,30.9799 191.6829,30.9799 C280.4499,30.9799 352.4089,102.9399 352.4089,191.7059"></path>
+    </defs>
+    <g id="Map-of-the-Unexplored-Brand-Mark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Brand-Mark" sketch:type="MSLayerGroup">
+            <g id="Group-18">
+                <path d="M382.5635,191.7059 C382.5635,297.1259 297.1035,382.5859 191.6835,382.5859 C86.2625,382.5859 0.8025,297.1259 0.8025,191.7059 C0.8025,86.2859 86.2625,0.8259 191.6835,0.8259 C297.1035,0.8259 382.5635,86.2859 382.5635,191.7059" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M380.0945,191.7059 C380.0945,295.7629 295.7395,380.1169 191.6835,380.1169 C87.6265,380.1169 3.2715,295.7629 3.2715,191.7059 C3.2715,87.6489 87.6265,3.2949 191.6835,3.2949 C295.7395,3.2949 380.0945,87.6489 380.0945,191.7059" id="Fill-3" fill="#EFEFEF" sketch:type="MSShapeGroup"></path>
+                <path d="M366.3693,191.7059 C366.3693,288.1829 288.1593,366.3919 191.6833,366.3919 C95.2063,366.3919 16.9973,288.1829 16.9973,191.7059 C16.9973,95.2289 95.2063,17.0199 191.6833,17.0199 C288.1593,17.0199 366.3693,95.2289 366.3693,191.7059" id="Fill-5" fill="#848484" sketch:type="MSShapeGroup"></path>
+                <mask id="mask-2" sketch:name="Fill 7" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill-7" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group" transform="translate(101.000000, 52.000000)" sketch:type="MSShapeGroup">
+                <path d="M21.7666,97.2382 C21.7666,103.1212 16.9986,107.8872 11.1156,107.8872 C5.2346,107.8872 0.4676,103.1212 0.4676,97.2382 C0.4676,91.3582 5.2346,86.5892 11.1156,86.5892 C16.9986,86.5892 21.7666,91.3582 21.7666,97.2382" id="Fill-10" fill="#848484"></path>
+                <path d="M90.9351,237.3046 L90.9351,179.4916" id="Stroke-12" stroke="#848484" stroke-width="11.168" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="22.335,22.335"></path>
+                <path d="M99.8218,179.0918 C97.0158,179.3568 94.1718,179.4918 91.2968,179.4918" id="Stroke-14" stroke="#848484" stroke-width="11.168" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="22.335,22.335"></path>
+                <path d="M3.5054,71.9052 C11.8344,31.0452 47.9744,0.2972 91.2964,0.2972 C140.7814,0.2972 180.8964,40.4132 180.8964,89.8952 C180.8964,128.4932 156.4874,161.3902 122.2654,173.9962" id="Stroke-16" stroke="#848484" stroke-width="11.168" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="22.335,22.335"></path>
+            </g>
+            <path d="M191.953003,315.053998 L187.713002,309.912997 L189.515002,309.329997 L189.515002,305.195996 L177.643,305.195996 L177.643,309.329997 L181.141001,310.071997 L187.925002,317.120998 L180.293001,325.229999 L176.795,325.971999 L176.795,330 L188.243002,330 L188.243002,325.971999 L186.441002,325.388999 L191.423003,319.293998 L196.723003,325.388999 L194.921003,325.971999 L194.921003,330 L207.058005,330 L207.058005,325.971999 L203.560005,325.229999 L195.610003,317.226998 L202.235004,310.071997 L205.733005,309.329997 L205.733005,305.195996 L194.391003,305.195996 L194.391003,309.329997 L196.193003,309.912997 L191.953003,315.053998 Z" id="x" fill="#848484" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
