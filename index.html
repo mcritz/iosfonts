@@ -18,10 +18,10 @@
     <h1>iOS Fonts</h1>
     <h2>A Place for Happy Typography</h2>
 </header>
-<nav>
-	<div class="target">
-		<span>Available since</span>
-		<select>
+<nav class="row">
+	<div class="target small-12 medium-6 columns">
+		<label for="os-version">Available since</label>
+		<select id="os-version">
 			<option value="3.0">iOS 3</option>
 			<option value="4.3">iOS 4.3</option>
 			<option value="5.0">iOS 5</option>
@@ -30,9 +30,15 @@
 			<option value="8.0">iOS 8</option>
 		</select>
 	</div>
-	<input type="search" placeholder="Search Fonts" results="5" autosave=iosfonts_cached_search_query />
 	
-	<textarea id="live_preview" type="text" placeholder="Preview"></textarea>
+	<div class="small-12 medium-6 columns">
+		<label for="font-search">Search</label>
+		<input id="font-search" type="search" placeholder="Search Fonts" results="5" autosave=iosfonts_cached_search_query />
+	</div>
+	
+	<div class="small-12 columns">
+		<textarea id="live-preview" type="text" placeholder="Preview"></textarea>
+	</div>
 
 </nav>
 
@@ -44,6 +50,6 @@
 </footer>
 </div>
 
-<script data-main="js/init.js" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js" async></script>
+<script data-main="js/init.js" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>
 </body>
 </html>
