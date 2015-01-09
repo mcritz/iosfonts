@@ -16,10 +16,27 @@ define(
 		var $el = $('#iosfonts');
 		var $previewEl = $('#live-preview');
 		var $searchEl = $('#font-search');
+		var $versionEl = $('#os-version');
 		var userText = '';
 		
 		var matchesQuery = function(query) {
 			return 
+		}
+		
+		var handleError = function($target, headline, message) {
+			$target = $target || $el;
+			headline = headline || 'Error';
+
+			if (!$target) {
+				alert('Critical error');
+				return;
+			}
+			var errorString = '<div class="row error"'
+				+ '<h2>' + headline + '</h2><p>'
+				+ message
+				+ '</p></div>';
+			$target.html(errorString);
+			throw(headline);
 		}
 		
 		var getKeys = function(object) {
@@ -37,16 +54,32 @@ define(
 			return objectKeys;
 		}
 
-
-/*
 		var renderFontsForVersion = function(fontData, version) {
+			if (!fontData) {
+				var errorMessage = 'Please report this error to '
+				+ '<a href="http://twitter.com/mike_critz">the developer</a>.';
+				handleError(null, 'Server Error', errorMessage);
+			}
+			var availableFaces = 0;
 			$(fontData).each(function(ii, fontDefinition) {
 				$(fontDefinition.faces).each(function(jj, faceDefinition) {
-					
+					var facePlatforms = faceDefinition.platforms;
+					for (var key in facePlatforms) {
+						if (!facePlatforms[key]) { return; }
+						
+						if (facePlatforms[key].version > version
+							|| facePlatforms[key].depricated <= version) {
+							facePlatforms[key].isNotAvailable = true;
+						} else {
+							facePlatforms[key].isNotAvailable = false;
+							availableFaces++;
+						}
+					}
 				});
+// 				this.isNotActive = availableFaces ? false : true;
 			});
+			renderFonts($el, fontData, userText);
 		}
-*/
 
 		var renderFontsWithQuery = function(fontData, query) {
 			var regexPattern = new RegExp(query, "gi");
@@ -84,32 +117,49 @@ define(
 					renderFontsWithQuery(allFonts, $(this).val());
 				}
 			);
+			$versionEl.on(
+				'change', function() {
+					renderFontsForVersion(allFonts, $(this).val());
+				}
+			);
 		}
 		
 		/**
 		 * itemizeValue
-		 * @param number : Number, String
-		 * returns a dictionary value of display string or version number
-		 * converting null and integers to pretty strings.
+		 * @param value (number, string, object) : data to be parsed
+		 * @param fontFamily (string) : display text to be rendered
+		 * returns a DOM dictionary value of data
+		 * converting non-text into pretty strings.
 		 **/
 		var itemizeValue = function(value, fontFamily) {
 			var fontStyle = "";
 			var elClass = "small-4 medium-2 columns";
 			var fontAttributes = "";
-			
-			if (!value) return '<span class="' + elClass + '">—</span>';
-			
-			if (fontFamily && (typeof(value) != "number")) {
-				elClass = "face-name small-12 medium-6 columns";
-    			fontAttributes = "title=" + fontFamily
-    			+ " style='font-family:" + fontFamily + "'; "
-    			+ "clear: both;";
+
+			switch (typeof(value)) {
+				case "number" :
+					if (value % 1 == 0) {
+						value = value + '.0';
+					}
+					break;
+				case "string" :
+					if (!fontFamily) { return; }
+					elClass = "face-name small-12 medium-6 columns";
+					fontAttributes = "title=" + fontFamily
+						+ " style='font-family:" + fontFamily + ";'";
+					break;
+				case "object" :
+					if (!value.version) { return; }
+					if (value.isNotAvailable) {
+						elClass += " unavailable";
+					} else {
+						elClass += " available";
+					}
+					value = value.version;
+					break;
+				default :
+					return '<span class="' + elClass + '">—</span>';
 			}
-			
-			if (value % 1 == 0) {
-				value = value + '.0';
-			}
-			
 			return '<span class="' + elClass
 				+ '" ' + fontAttributes + '>' + value + '</span>';
 		}
@@ -177,8 +227,8 @@ define(
 				url: "data/iosfonts.json",
 				context: document.body
 			}).done(function(data) {
-				allFonts = data;
-				renderFonts($targetEl, allFonts, userText);
+				allFonts = data.fonts;
+				renderFontsForVersion(allFonts, 8);
 				initEvents();
 			});
 		};

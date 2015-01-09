@@ -1,53 +1,11 @@
-body {
-	padding: 0;
-	margin: 0;
-}
-
-/*------------------------------------*/
-header {
-	font-family: 'Helvetica Neue';
-}
-
-footer {
-	text-align: center;
-	background: url(img/MapOfTheUnexploredBrandMarkGrey.svg) no-repeat top center;
-	background-size: 3em;
-	padding-top: 3em;
-}
-
-.branding {
-	color: #f6f8fb;
-	background: #c12a2a;
-	box-sizing: border-box;
-		padding: .25em;
-		width: 50%;
-		margin-left: 15%;
-		display: inline-block;
-}
-
-.description {
-		display: inline-block;
-		width: 25%;
-}
-
-h1, h2 {
-	font-weight: 100;
-	margin: 0;
-	line-height: .95em;
-}
-
-h1 {
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 1.5em;
-	letter-spacing: .03em;
-}
-
 h4 {
 	font-weight: 100;
 	background: #eee;
+}
+
+h4 small {
+	color: #888;
+	font-weight: 500;
 }
 
 .font-name {
@@ -56,7 +14,16 @@ h4 {
 }
 
 .inactive span {
-	display: none;
+	opacity: .4;
+}
+
+.unavailable {
+	opacity: .4;
+	text-decoration: line-through;
+}
+
+.available {
+	color: #444;
 }
 
 #iosfonts ul {
@@ -90,3 +57,4 @@ li span {
 #iosfonts li div.row:hover {
 	background: #f4f4f4;
 }
+

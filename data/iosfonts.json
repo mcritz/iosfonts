@@ -1,12 +1,12 @@
-[
+{"fonts" : [
 	{ "family_name" : "Academy Engraved LET",
 		"faces" : [
 				{
 					"font_face" 	: "AcademyEngravedLetPlain",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -16,17 +16,17 @@
 				{
 					"font_face" 	: "AlNile-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AlNile",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -36,49 +36,49 @@
 				{
 					"font_face" 	: "AmericanTypewriter",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AmericanTypewriter-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AmericanTypewriter-Condensed",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AmericanTypewriter-CondensedBold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AmericanTypewriter-CondensedLight",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AmericanTypewriter-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -88,9 +88,9 @@
 				{
 					"font_face" 	: "AppleColorEmoji",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -100,57 +100,57 @@
 				{
 					"font_face" 	: "AppleSDGothicNeo-Thin",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-Light",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-Regular",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-Medium",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-SemiBold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AppleSDGothicNeo-Medium",
 					"platforms"		: {
-						"iphone" 		: 4.3,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 4.3},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -160,33 +160,33 @@
 				{
 					"font_face" 	: "ArialMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Arial-BoldItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Arial-BoldMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Arial-ItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -196,25 +196,25 @@
 				{
 					"font_face" 	: "ArialHebrew",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "ArialHebrew-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "ArialHebrew-Light",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -224,9 +224,9 @@
 				{
 					"font_face" 	: "ArialRoundedMTBold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -236,97 +236,97 @@
 				{
 					"font_face" 	: "Avenir-Black",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-BlackOblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Book",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-BookOblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Heavy",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-HeavyOblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Light",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-LightOblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Medium",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-MediumOblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Oblique",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Avenir-Roman",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -336,97 +336,97 @@
 				{
 					"font_face" 	: "AvenirNext-Bold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-DemiBold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-DemiBoldItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-Heavy",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-HeavyItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-Italic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-Medium",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-MediumItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-Regular",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-UltraLight",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNext-UltraLightItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -436,97 +436,97 @@
 				{
 					"font_face" 	: "AvenirNextCondensed-Bold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-DemiBold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-DemiBoldItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-Heavy",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-HeavyItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-Italic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-Medium",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-MediumItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-Regular",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-UltraLight",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "AvenirNextCondensed-UltraLightItalic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -536,17 +536,17 @@
 				{
 					"font_face" 	: "BanglaSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BanglaSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -556,49 +556,49 @@
 				{
 					"font_face" 	: "Baskerville",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Baskerville-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Baskerville-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Baskerville-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Baskerville-SemiBold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Baskerville-SemiBoldItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -608,9 +608,9 @@
 				{
 					"font_face" 	: "BodoniOrnamentsITCTT",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -620,25 +620,25 @@
 				{
 					"font_face" 	: "BodoniSvtyTwoITCTT-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BodoniSvtyTwoITCTT-Book",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BodoniSvtyTwoITCTT-BookIta",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -648,33 +648,33 @@
 				{
 					"font_face" 	: "BodoniSvtyTwoOSITCTT-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BodoniSvtyTwoOSITCTT-Book",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BodoniSvtyTwoOSITCTT-BookIt",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "BodoniSvtyTwoSCITCTT-Book",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -684,9 +684,9 @@
 				{
 					"font_face" 	: "BradleyHandITCTT-Bold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -696,25 +696,25 @@
 				{
 					"font_face" 	: "ChalkboardSE-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "ChalkboardSE-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "ChalkboardSE-Regular",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -724,9 +724,9 @@
 				{
 					"font_face" 	: "Chalkduster",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -736,33 +736,33 @@
 				{
 					"font_face" 	: "Cochin",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Cochin-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Cochin-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Cochin-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -772,25 +772,25 @@
 				{
 					"font_face" 	: "Copperplate",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Copperplate-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Copperplate-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -800,33 +800,33 @@
 				{
 					"font_face" 	: "Courier",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Courier-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Courier-BoldOblique",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Courier-Oblique",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -836,33 +836,33 @@
 				{
 					"font_face" 	: "CourierNewPS-BoldItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "CourierNewPS-BoldMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "CourierNewPS-ItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "CourierNewPSMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -872,11 +872,10 @@
 				{
 					"font_face" 	: "DBLCDTempBlack",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
-					},
-					"depricated"	: 6.0
+						"iphone" 		: {"version" : 3.0, "depricated" : 6.0},
+						"ipad"			: {"version" : 4.3, "depricated" : 6.0},
+						"watch"			: {"version" : 8.0, "depricated" : 6.0}
+					}
 				}
 		]
 	},
@@ -885,9 +884,9 @@
 				{
 					"font_face" 	: "DINAlternate-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -897,9 +896,9 @@
 				{
 					"font_face" 	: "DINCondensed-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -909,41 +908,41 @@
 				{
 					"font_face" 	: "DamascusBold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Damascus",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "DamascusLight",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "DamascusMedium",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "DamascusSemiBold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -953,17 +952,17 @@
 				{
 					"font_face" 	: "DevanagariSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "DevanagariSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -973,25 +972,25 @@
 				{
 					"font_face" 	: "Didot",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Didot-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Didot-Italic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1001,9 +1000,9 @@
 				{
 					"font_face" 	: "DiwanMishafi",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1013,25 +1012,25 @@
 				{
 					"font_face" 	: "EuphemiaUCAS",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "EuphemiaUCAS-Bold",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "EuphemiaUCAS-Italic",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1041,9 +1040,9 @@
 				{
 					"font_face" 	: "Farah",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1053,33 +1052,33 @@
 				{
 					"font_face" 	: "Futura-CondensedExtraBold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Futura-CondensedMedium",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Futura-Medium",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Futura-MediumItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1089,17 +1088,17 @@
 				{
 					"font_face" 	: "GeezaPro",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GeezaPro-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1109,33 +1108,33 @@
 				{
 					"font_face" 	: "Georgia",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Georgia-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Georgia-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Georgia-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1145,49 +1144,49 @@
 				{
 					"font_face" 	: "GillSans",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GillSans-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GillSans-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GillSans-Italic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GillSans-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GillSans-LightItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1197,17 +1196,17 @@
 				{
 					"font_face" 	: "GujaratiSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GujaratiSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1217,17 +1216,17 @@
 				{
 					"font_face" 	: "GurmukhiMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "GurmukhiMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1237,17 +1236,17 @@
 				{
 					"font_face" 	: "STHeitiSC-Light",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "STHeitiSC-Medium",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1257,17 +1256,17 @@
 				{
 					"font_face" 	: "STHeitiTC-Light",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "STHeitiTC-Medium",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1277,49 +1276,49 @@
 				{
 					"font_face" 	: "Helvetica",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Helvetica-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Helvetica-BoldOblique",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Helvetica-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Helvetica-LightOblique",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Helvetica-Oblique",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1329,113 +1328,113 @@
 				{
 					"font_face" 	: "HelveticaNeue",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-CondensedBlack",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-CondensedBold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-LightItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-Medium",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-MediumItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-UltraLight",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-UltraLightItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-Thin",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HelveticaNeue-ThinItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1445,17 +1444,17 @@
 				{
 					"font_face" 	: "HiraKakuProN-W3",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HiraKakuProN-W6",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1465,17 +1464,17 @@
 				{
 					"font_face" 	: "HiraMinProN-W3",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HiraMinProN-W6",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1485,33 +1484,33 @@
 				{
 					"font_face" 	: "HoeflerText-Black",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HoeflerText-BlackItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HoeflerText-Italic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "HoeflerText-Regular",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1521,33 +1520,33 @@
 				{
 					"font_face" 	: "IowanOldStyle-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "IowanOldStyle-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "IowanOldStyle-Italic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "IowanOldStyle-Roman",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1557,17 +1556,17 @@
 				{
 					"font_face" 	: "Kailasa",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Kailasa-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1577,17 +1576,17 @@
 				{
 					"font_face" 	: "KannadaSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "KannadaSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1597,9 +1596,9 @@
 				{
 					"font_face" 	: "KhmerSangamMN",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1609,25 +1608,25 @@
 				{
 					"font_face" 	: "KohinoorDevanagari-Book",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "KohinoorDevanagari-Light",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "KohinoorDevanagari-Medium",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1637,9 +1636,9 @@
 				{
 					"font_face" 	: "LaoSangamMN",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1649,17 +1648,17 @@
 				{
 					"font_face" 	: "MalayalamSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "MalayalamSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1669,25 +1668,25 @@
 				{
 					"font_face" 	: "Marion-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Marion-Italic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Marion-Regular",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1697,33 +1696,33 @@
 				{
 					"font_face" 	: "Menlo-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Menlo-Regular",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Menlo-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Menlo-Italic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1733,17 +1732,17 @@
 				{
 					"font_face" 	: "MarkerFelt-Thin",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "MarkerFelt-Wide",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1753,17 +1752,17 @@
 				{
 					"font_face" 	: "Noteworthy-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Noteworthy-Light",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1773,41 +1772,41 @@
 				{
 					"font_face" 	: "Optima-Bold",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Optima-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Optima-ExtraBlack",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Optima-Italic",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Optima-Regular",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1817,17 +1816,17 @@
 				{
 					"font_face" 	: "OriyaSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "OriyaSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1837,33 +1836,33 @@
 				{
 					"font_face" 	: "Palatino-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Palatino-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Palatino-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Palatino-Roman",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1873,17 +1872,17 @@
 				{
 					"font_face" 	: "Papyrus",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Papyrus-Condensed",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1893,9 +1892,9 @@
 				{
 					"font_face" 	: "PartyLetPlain",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1905,9 +1904,9 @@
 				{
 					"font_face" 	: "SavoyeLetPlain",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1917,17 +1916,17 @@
 				{
 					"font_face" 	: "SinhalaSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "SinhalaSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1937,25 +1936,25 @@
 				{
 					"font_face" 	: "SnellRoundhand",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "SnellRoundhand-Black",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 5.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 5.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "SnellRoundhand-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -1965,65 +1964,65 @@
 				{
 					"font_face" 	: "Superclarendon-Regular",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-Light",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-BlackItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-Italic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-LightItalic",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-Bold",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Superclarendon-Black",
 					"platforms"		: {
-						"iphone" 		: 7.0,
-						"ipad"			: 7.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 7.0},
+						"ipad"			: {"version" : 7.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2033,9 +2032,9 @@
 				{
 					"font_face" 	: "Symbol",
 					"platforms"		: {
-						"iphone" 		: 6.0,
-						"ipad"			: 6.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 6.0},
+						"ipad"			: {"version" : 6.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2045,17 +2044,17 @@
 				{
 					"font_face" 	: "TamilSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TamilSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2065,17 +2064,17 @@
 				{
 					"font_face" 	: "TeluguSangamMN",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TeluguSangamMN-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2085,25 +2084,25 @@
 				{
 					"font_face" 	: "Thonburi",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Thonburi-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Thonburi-Light",
 					"platforms"		: {
-						"iphone" 		: 8.0,
-						"ipad"			: 8.0,
-						"watch"			: null
+						"iphone" 		: {"version" : 8.0},
+						"ipad"			: {"version" : 8.0},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2113,33 +2112,33 @@
 				{
 					"font_face" 	: "TimesNewRomanPS-BoldItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TimesNewRomanPS-BoldMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TimesNewRomanPS-ItalicMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TimesNewRomanPSMT",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2149,33 +2148,33 @@
 				{
 					"font_face" 	: "Trebuchet-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TrebuchetMS",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TrebuchetMS-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "TrebuchetMS-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2185,33 +2184,33 @@
 				{
 					"font_face" 	: "Verdana",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Verdana-Bold",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Verdana-BoldItalic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				},
 				{
 					"font_face" 	: "Verdana-Italic",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2221,9 +2220,9 @@
 				{
 					"font_face" 	: "ZapfDingbatsITC",
 					"platforms"		: {
-						"iphone" 		: 5.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 5.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
@@ -2233,11 +2232,11 @@
 				{
 					"font_face" 	: "Zapfino",
 					"platforms"		: {
-						"iphone" 		: 3.0,
-						"ipad"			: 4.3,
-						"watch"			: null
+						"iphone" 		: {"version" : 3.0},
+						"ipad"			: {"version" : 4.3},
+						"watch"			: {"version" : 8.0}
 					}
 				}
 		]
 	}
-]
+]}
