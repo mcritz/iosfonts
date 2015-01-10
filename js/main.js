@@ -76,7 +76,6 @@ define(
 						}
 					}
 				});
-// 				this.isNotActive = availableFaces ? false : true;
 			});
 			renderFonts($el, fontData, userText);
 		}
@@ -149,13 +148,15 @@ define(
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
 				case "object" :
+					var isDepricated = value.depricated;
 					if (!value.version) { return; }
 					if (value.isNotAvailable) {
 						elClass += " unavailable";
 					} else {
 						elClass += " available";
 					}
-					value = value.version;
+					value = (isDepricated) ?
+						'depricated iOS ' + value.depricated : value.version;
 					break;
 				default :
 					return '<span class="' + elClass + '">—</span>';
