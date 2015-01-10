@@ -1,10 +1,23 @@
+h1, h2 {
+	color: #fff;
+	font-weight: 100;
+}
+
+.branding {
+	background: #bb0505;
+}
+
+nav {
+	background: #fcfcfd;
+}
+
 h4 {
 	font-weight: 100;
-	background: #eee;
+	background: #f1f1f8;
 }
 
 h4 small {
-	color: #888;
+	color: #909099;
 	font-weight: 500;
 }
 
@@ -46,15 +59,15 @@ li span {
 }
 
 #iosfonts li:hover {
-	background: #fafafa;
+	background: #fafafb;
 }
 
 #iosfont li:hover h4 {
-	color: #111;
-	background: #aaa;
+	color: #11111a;
+	background: #aaaaad;
 }
 
 #iosfonts li div.row:hover {
-	background: #f4f4f4;
+	background: #f4f4f8;
 }
 
