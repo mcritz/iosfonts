@@ -226,7 +226,8 @@ define(
 		var init = function($targetEl) {
 			$.ajax({
 				url: "data/iosfonts.json",
-				context: document.body
+				context: document.body,
+				crossDomain: true
 			}).done(function(data) {
 				allFonts = data.fonts;
 				renderFontsForVersion(allFonts, 8);

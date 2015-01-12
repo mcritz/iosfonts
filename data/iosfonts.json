@@ -1,4 +1,46 @@
-{"fonts" : [
+{
+	"version" : 2.0,
+	"license" : {
+		"name" : "Apache 2.0",
+		"url" : "https://www.apache.org/licenses/LICENSE-2.0.txt"
+	},
+	"author" : "Michael Critz, Map of the Unexplored",
+"platforms" : {
+	"iphone" : {
+		"name" : "iPhone",
+		"type" : "ios",
+		"copyright" : "Copyright © 2015 Apple Inc. All rights reserved"
+	},
+	"ipad" : {
+		"name" : "iPad",
+		"type" : "ios",
+		"copyright" : "Copyright © 2015 Apple Inc. All rights reserved"
+	},
+	"watch" : {
+		"name" : "Apple WATCH",
+		"type" : "ios",
+		"copyright" : "Copyright © 2015 Apple Inc. All rights reserved"
+	}
+},
+"versions" : {
+	"ios" : [
+		{ "version" : 3.0 },
+		{ "version" : 4.3 },
+		{ "version" : 5.0 },
+		{ "version" : 6.0 },
+		{ "version" : 7.0 },
+		{ "version" : 8.0 }
+	],
+	"mac" : [
+		{ "version" : 10.10, 	"name" : "Yosemite"},
+		{ "version" : 10.9, 	"name" : "Mavericks"},
+		{ "version" : 10.8,		"name" : "Lion"},
+		{ "version" : 10.7,		"name" : "Snow Leopard"},
+		{ "version" : 10.6,		"name" : "Leopard"},
+		{ "version" : 10.5,		"name" : "Lion"}
+	]
+},
+"fonts" : [
 	{ "family_name" : "Academy Engraved LET",
 		"faces" : [
 				{
