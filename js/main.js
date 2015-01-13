@@ -14,6 +14,8 @@ define(
 	) {
 		var allFonts = {};
 		var $el = $('#iosfonts');
+		var fontFaceClass = 'font-face';
+		var clickedFaceClass = 'large';
 		var $previewEl = $('#live-preview');
 		var $searchEl = $('#font-search');
 		var $versionEl = $('#os-version');
@@ -121,6 +123,19 @@ define(
 					renderFontsForVersion(allFonts, $(this).val());
 				}
 			);
+			$el.on(
+				'click',
+				'.' + fontFaceClass,
+				function(e) {
+					console.log('click!' + $(this).text() );
+					// TODO: remove data-in-the-DOM
+					if ($(this).hasClass(clickedFaceClass)) {
+						$(this).removeClass(clickedFaceClass);
+						return;
+					};
+					$(this).addClass(clickedFaceClass);
+				}
+			);
 		}
 		
 		/**
@@ -181,7 +196,8 @@ define(
 			var faces = '';
 			
 			$(faceData).each( function() {
-				var faceClass = 'row';
+				var faceClass = fontFaceClass;
+				faceClass += ' row';
 				
 				if (this.doesNotMatch) {
 					faceClass += ' inactive';
@@ -223,6 +239,17 @@ define(
 			$target.html($list);
 		};
 
+		/*
+		 *	getLatestVersion
+		 *	@param fontData (object)
+		 * 	Returns the latest version of the first platform (ios) in the data file
+		 */
+		var getLatestVersion = function(metaData) {
+			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
+			var allIosVersions = metaData.versions.ios; 								// [3..8.0]
+			return allIosVersions[(allIosVersions.length - 1)].version; // 8
+		};
+		
 		var init = function($targetEl) {
 			$.ajax({
 				url: "data/iosfonts.json",
@@ -230,7 +257,9 @@ define(
 				crossDomain: true
 			}).done(function(data) {
 				allFonts = data.fonts;
-				renderFontsForVersion(allFonts, 8);
+				
+				var latestVersion = getLatestVersion(data);
+				renderFontsForVersion(allFonts, latestVersion);
 				initEvents();
 			});
 		};
