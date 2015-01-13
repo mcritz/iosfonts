@@ -1,10 +1,10 @@
 {
-	"version" : 2.0,
-	"license" : {
-		"name" : "Apache 2.0",
-		"url" : "https://www.apache.org/licenses/LICENSE-2.0.txt"
-	},
-	"author" : "Michael Critz, Map of the Unexplored",
+"version" : 2.0,
+"license" : {
+	"name" : "Apache 2.0",
+	"url" : "https://www.apache.org/licenses/LICENSE-2.0.txt"
+},
+"author" : "Michael Critz, Map of the Unexplored",
 "platforms" : {
 	"iphone" : {
 		"name" : "iPhone",
