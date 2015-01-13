@@ -54,6 +54,16 @@ li span {
 	padding-bottom: .5em;
 }
 
+.font-face.large span {
+	display: none;
+}
+
+.font-face.large .face-name {
+	display: block;
+	width: 100%;
+	font-size: 2em;
+}
+
 .face-name {
 	color: #555;
 }
