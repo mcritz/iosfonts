@@ -127,7 +127,6 @@ define(
 				'click',
 				'.' + fontFaceClass,
 				function(e) {
-					console.log('click!' + $(this).text() );
 					// TODO: remove data-in-the-DOM
 					if ($(this).hasClass(clickedFaceClass)) {
 						$(this).removeClass(clickedFaceClass);
