@@ -132,7 +132,7 @@ define(
 		 **/
 		var itemizeValue = function(value, fontFamily) {
 			var fontStyle = "";
-			var elClass = "small-4 medium-2 columns";
+			var elClass = "small-4 medium-2 large-1 columns";
 			var fontAttributes = "";
 
 			switch (typeof(value)) {
@@ -143,7 +143,7 @@ define(
 					break;
 				case "string" :
 					if (!fontFamily) { return; }
-					elClass = "face-name small-12 medium-6 columns";
+					elClass = "face-name small-12 medium-6 large-9 columns";
 					fontAttributes = "title=" + fontFamily
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
@@ -202,18 +202,18 @@ define(
 		var renderFonts = function($target, data, previewText) {
 			
 			var $list = $('<ul></ul>');
-			var elClass = "small-4 medium-2 columns";
+			var elClass = "small-4 medium-2 large-1 columns";
 
 			$(data).each( function() {
 				if (this.isNotActive) {
 					return;
 				}
 				$list.append('<li><h4 class="row">'
-				+ '<span class="font-name small-12 medium-6 columns">'
+				+ '<span class="font-name small-12 medium-6 large-9 columns">'
 				+ this.family_name + '</span>'
 				+ '<span class="' + elClass + '"><small>iPhone</small></span>'
 				+ '<span class="' + elClass + '"><small>iPad</small></span>'
-				+ '<span class="' + elClass + '"><small> WATCH</small></span>'
+				+ '<span class="' + elClass + '"><small>&nbsp;WATCH</small></span>'
 				+ '</h4>'
 				+ renderFontFaces(this.faces, previewText)
 				+ '</li>');
