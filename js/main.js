@@ -14,23 +14,21 @@ define(
 	) {
 		var allFonts = {};
 		var $el = $('#iosfonts');
+		var $filterEl = $('#filters');
+		var $previewEl;
+		var $searchEl;
+		var $versionEl;
+		
 		var fontFaceClass = 'font-face';
 		var clickedFaceClass = 'large';
-		var $previewEl = $('#live-preview');
-		var $searchEl = $('#font-search');
-		var $versionEl = $('#os-version');
 		var userText = '';
-		
-		var matchesQuery = function(query) {
-			return 
-		}
 		
 		var handleError = function($target, headline, message) {
 			$target = $target || $el;
 			headline = headline || 'Error';
 
 			if (!$target) {
-				alert('Critical error');
+				alert("Sorry about this critical error. It's not your fault.");
 				return;
 			}
 			var errorString = '<div class="row error"'
@@ -237,6 +235,42 @@ define(
 			$list.append('</ul>');
 			$target.html($list);
 		};
+		
+		var renderControls = function($element, versionData) {
+			var template = 	'<div class="target small-12 medium-6 columns">'
+				+ '<label for="os-version">&nbsp;</label>'
+				+ '<select id="os-version">'
+					+	'<option value="8.0" selected>Installed with iOS 8</option>'
+					+	'<option value="7.0">Installed with iOS 7</option>'
+					+	'<option value="6.0">Installed with iOS 6</option>'
+					+	'<option value="5.0">Installed with iOS 5</option>'
+					+	'<option value="4.3">Installed with iOS 4.3</option>'
+					+	'<option value="3.0">Installed with iOS 3</option>'
+				+	'</select>'
+				+ '</div>'
+				
+				+ '<div class="small-12 medium-6 columns">'
+				+	'<label for="font-search">&nbsp;</label>'
+				+ '<input id="font-search" type="search" placeholder="Search Fonts"'
+						+ 'results="5" autosave=iosfonts_cached_search_query />'
+				+ '</div>'
+
+				+ '<div class="small-12 columns">'
+				+	'<textarea id="live-preview" type="text" placeholder="Preview">'
+					+ '</textarea>'
+				+ '</div>';
+			$element.html(template);
+			
+			$previewEl = $('#live-preview');
+			$searchEl = $('#font-search');
+			$versionEl = $('#os-version');
+		};
+		
+		var haltProgress = function() {
+			if (progressTimer) {
+				clearInterval(progressTimer);
+			}
+		}
 
 		/*
 		 *	getLatestVersion
@@ -244,6 +278,9 @@ define(
 		 * 	Returns the latest version of the first platform (ios) in the data file
 		 */
 		var getLatestVersion = function(metaData) {
+			if (!metaData) {
+				handleError(null, 'Error', 'Cannot load font data file.');
+			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
 			var allIosVersions = metaData.versions.ios; 								// [3..8.0]
 			return allIosVersions[(allIosVersions.length - 1)].version; // 8
@@ -255,10 +292,12 @@ define(
 				context: document.body,
 				crossDomain: true
 			}).done(function(data) {
+				haltProgress();
 				allFonts = data.fonts;
 				
 				var latestVersion = getLatestVersion(data);
 				renderFontsForVersion(allFonts, latestVersion);
+				renderControls($filterEl, data.versions);
 				initEvents();
 			});
 		};
