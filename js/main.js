@@ -278,8 +278,9 @@ define(
 		 * 	Returns the latest version of the first platform (ios) in the data file
 		 */
 		var getLatestVersion = function(metaData) {
-			if (!metaData) {
-				handleError(null, 'Error', 'Cannot load font data file.');
+			if (!metaData.platforms || !metaData.versions) {
+				var errorHeader = 'Error loading data file'
+				handleError(null, errorHeader, 'Sorry. It’s not your fault');
 			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
 			var allIosVersions = metaData.versions.ios; 								// [3..8.0]
@@ -293,6 +294,7 @@ define(
 				crossDomain: true
 			}).done(function(data) {
 				haltProgress();
+				
 				allFonts = data.fonts;
 				
 				var latestVersion = getLatestVersion(data);
