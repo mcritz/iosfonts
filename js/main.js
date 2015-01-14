@@ -83,6 +83,8 @@ define(
 		var renderFontsWithQuery = function(fontData, query) {
 			var regexPattern = new RegExp(query, "gi");
 			
+			var countOfActive = 0;
+			
 			$(fontData).each(function(ii, fontDefinition) {
 				var faceCount = fontDefinition.faces.count;
 				var matchCount = 0;
@@ -99,8 +101,11 @@ define(
 				});
 				
 				this.isNotActive = matchCount ? false : true;
+				if (!this.isNotActive) {
+					countOfActive++;
+				}
 			});
-			
+			fontData.hasNoMatches = countOfActive ? false : true;
 			renderFonts($el, fontData, userText);
 		}
 		
@@ -213,7 +218,14 @@ define(
 		}
 		
 		var renderFonts = function($target, data, previewText) {
-			
+			if (data.hasNoMatches) {
+				var template = '<ul><li><h4 class="row">'
+					+ '<span class="font-name small-12 medium-6 large-9 columns">'
+					+ 'No Matches'
+					+ '</span></h4></li></ul>';
+				$target.html(template);
+				return;
+			}
 			var $list = $('<ul></ul>');
 			var elClass = "small-4 medium-2 large-1 columns";
 
@@ -272,11 +284,11 @@ define(
 			}
 		}
 
-		/*
+		/**
 		 *	getLatestVersion
 		 *	@param fontData (object)
 		 * 	Returns the latest version of the first platform (ios) in the data file
-		 */
+		 **/
 		var getLatestVersion = function(metaData) {
 			if (!metaData.platforms || !metaData.versions) {
 				var errorHeader = 'Error loading data file'
