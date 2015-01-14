@@ -26,31 +26,34 @@
 -->
 </header>
 
-<nav class="row">
-	<div class="target small-12 medium-6 columns">
-		<label for="os-version">&nbsp;</label>
-		<select id="os-version">
-			<option value="8.0" selected>Installed with iOS 8</option>
-			<option value="7.0">Installed with iOS 7</option>
-			<option value="6.0">Installed with iOS 6</option>
-			<option value="5.0">Installed with iOS 5</option>
-			<option value="4.3">Installed with iOS 4.3</option>
-			<option value="3.0">Installed with iOS 3</option>
-		</select>
-	</div>
-	
-	<div class="small-12 medium-6 columns">
-		<label for="font-search">&nbsp;</label>
-		<input id="font-search" type="search" placeholder="Search Fonts" results="5" autosave=iosfonts_cached_search_query />
-	</div>
-	
-	<div class="small-12 columns">
-		<textarea id="live-preview" type="text" placeholder="Preview"></textarea>
-	</div>
-
+<nav id="filters" class="row">
 </nav>
 
 <div id="iosfonts">
+	<div class="row text-center">
+		<h3>Loading all fonts for iOS</h3>
+		<progress id="loading-view" value="0" max="100" style="width:50%">70 %</progress>
+		<script>
+			var progressTimer;
+			var progress = 10;
+			var progressEl = document.getElementById('loading-view');
+			
+			var updateProgress = function() {
+				progressEl.setAttribute('value', progress);
+				if (progress < 50) {
+					progress += 3;
+				} else if (progress < 75) {
+					progress += .5;
+				} else if (progress < 95) {
+					progress += .1;
+				} else {
+					progress = 95;
+					clearInterval(progressTimer);
+				}
+			}
+			progressTimer = window.setInterval(updateProgress, 50);
+		</script>
+	</div>
 </div>
 
 <footer class="row text-center">
