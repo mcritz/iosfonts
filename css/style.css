@@ -62,6 +62,8 @@ li span {
 	display: block;
 	width: 100%;
 	font-size: 2em;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
 }
 
 .face-name {
