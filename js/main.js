@@ -27,21 +27,7 @@ define(
 		var clickedFaceClass = 'large';
 		var userText = '';
 		
-		var handleError = function($target, headline, message) {
-			$target = $target || $el;
-			headline = headline || 'Error';
-
-			if (!$target) {
-				alert("Sorry about this critical error. It's not your fault.");
-				return;
-			}
-			var errorString = '<div class="row error"'
-				+ '<h2>' + headline + '</h2><p>'
-				+ message
-				+ '</p></div>';
-			$target.html(errorString);
-			throw(headline);
-		}
+		var initAnalytics = analytics;
 		
 		var getKeys = function(object) {
 			var objectKeys = [];
@@ -60,9 +46,14 @@ define(
 
 		var renderFontsForVersion = function(fontData, version) {
 			if (!fontData) {
-				var errorMessage = 'Please report this error to '
-				+ '<a href="http://twitter.com/mike_critz">the developer</a>.';
-				handleError(null, 'Server Error', errorMessage);
+				var errorMessage = 'Please <a href="http://twitter.com/mike_critz">'
+					+ 'report this error</a> to '
+					+ 'the developer.';
+				Error.handleError(
+				{
+					'headline' : 'Server Error',
+					'message' : errorMessage
+				});
 			}
 			var availableFaces = 0;
 			$(fontData).each(function(ii, fontDefinition) {
@@ -222,6 +213,13 @@ define(
 		}
 		
 		var renderFonts = function($target, data, previewText) {
+			if (!data) {
+				Error.handleError({
+					'headline' : 'Javascript error',
+					'message' : 'Please report this error to the developer'
+				});
+				return;
+			}
 			if (data.hasNoMatches) {
 				var template = '<ul><li><h4 class="row">'
 					+ '<span class="font-name small-12 medium-6 large-9 columns">'
@@ -307,7 +305,7 @@ define(
 		var getLatestVersion = function(metaData) {
 			if (!metaData.platforms || !metaData.versions) {
 				var errorHeader = 'Error loading data file'
-				handleError(null, errorHeader, 'Sorry. It’s not your fault');
+				Error.handleError(null, errorHeader, 'Sorry. It’s not your fault');
 			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
 			var allIosVersions = metaData.versions.ios; 								// [3..8.0]

@@ -83,3 +83,15 @@ li span {
 	background: #d9d9e6;
 }
 
+.notice {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+}
+
+.alert-box {
+	opacity: .96;
+	margin-bottom: 0;
+}
