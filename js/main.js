@@ -332,10 +332,6 @@ define(
 				renderControls($filterEl, data.versions);
 				initEvents();
 			});
-			Error.handleError({
-				$targetEl : null,
-				message : 'Testing Errors'
-			});
 		};
 				
 		init($el);
