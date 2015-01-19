@@ -27,8 +27,6 @@ define(
 		var clickedFaceClass = 'large';
 		var userText = '';
 		
-		var initAnalytics = analytics;
-		
 		var handleError = function($target, headline, message) {
 			$target = $target || $el;
 			headline = headline || 'Error';
