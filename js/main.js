@@ -13,7 +13,7 @@ define(
 	],
 	function(
 		$,
-		Error,
+		ErrorHandler,
 		analytics
 	) {
 		var allFonts = {};
@@ -49,7 +49,7 @@ define(
 				var errorMessage = 'Please <a href="http://twitter.com/mike_critz">'
 					+ 'report this error</a> to '
 					+ 'the developer.';
-				Error.handleError(
+				ErrorHandler.handleError(
 				{
 					'headline' : 'Server Error',
 					'message' : errorMessage
@@ -214,7 +214,7 @@ define(
 		
 		var renderFonts = function($target, data, previewText) {
 			if (!data) {
-				Error.handleError({
+				ErrorHandler.handleError({
 					'headline' : 'Javascript error',
 					'message' : 'Please report this error to the developer'
 				});
@@ -305,7 +305,7 @@ define(
 		var getLatestVersion = function(metaData) {
 			if (!metaData.platforms || !metaData.versions) {
 				var errorHeader = 'Error loading data file'
-				Error.handleError(null, errorHeader, 'Sorry. It’s not your fault');
+				ErrorHandler.handleError(null, errorHeader, 'Sorry. It’s not your fault');
 			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
 			var allIosVersions = metaData.versions.ios; 								// [3..8.0]

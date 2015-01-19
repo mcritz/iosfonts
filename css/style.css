@@ -31,12 +31,14 @@ h4 small {
 }
 
 .unavailable {
-	opacity: .4;
-	text-decoration: line-through;
+/* 	opacity: .2; */
+	color: #bb0505;
+	background: rgba(186, 5, 5, 0.05);
+/* 	text-decoration: line-through; */
 }
 
 .available {
-	color: #444;
+	color: #888;
 }
 
 #iosfonts ul {
@@ -50,8 +52,6 @@ h4 small {
 
 li span {
 	color: #aaa;
-	padding-top: .5em;
-	padding-bottom: .5em;
 }
 
 .font-face.large span {
