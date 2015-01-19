@@ -7,10 +7,14 @@
 
 define(
 	[
-		"jquery"
+		"jquery",
+		"ErrorHandler",
+		"Analytics"
 	],
 	function(
-		$
+		$,
+		Error,
+		analytics
 	) {
 		var allFonts = {};
 		var $el = $('#iosfonts');
@@ -22,6 +26,8 @@ define(
 		var fontFaceClass = 'font-face';
 		var clickedFaceClass = 'large';
 		var userText = '';
+		
+		var initAnalytics = analytics;
 		
 		var handleError = function($target, headline, message) {
 			$target = $target || $el;
@@ -248,17 +254,28 @@ define(
 			$target.html($list);
 		};
 		
+		var itemizeVersions = function(versions) {
+			var choices = '';
+			var optionAttr = '';
+			for (var vv = 0; vv < versions.length; vv++) {
+				var ver = versions[vv].version;
+				if (vv+1 == versions.length) {
+					optionAttr = ' selected';
+				}
+				choices += '<option value="' + ver + '" '
+					+ optionAttr
+					+ '>Installed since iOS ' + ver
+					+ '</option>';
+			}
+			return choices;
+		};
+		
 		var renderControls = function($element, versionData) {
 			var template = 	'<div class="target small-12 medium-6 columns">'
 				+ '<label for="os-version">&nbsp;</label>'
 				+ '<select id="os-version">'
-					+	'<option value="8.0" selected>Installed with iOS 8</option>'
-					+	'<option value="7.0">Installed with iOS 7</option>'
-					+	'<option value="6.0">Installed with iOS 6</option>'
-					+	'<option value="5.0">Installed with iOS 5</option>'
-					+	'<option value="4.3">Installed with iOS 4.3</option>'
-					+	'<option value="3.0">Installed with iOS 3</option>'
-				+	'</select>'
+					+ itemizeVersions(versionData.ios)
+				+ '</select>'
 				+ '</div>'
 				
 				+ '<div class="small-12 medium-6 columns">'
@@ -300,6 +317,7 @@ define(
 		};
 		
 		var init = function($targetEl) {
+			
 			$.ajax({
 				url: "data/iosfonts.json",
 				context: document.body,
@@ -314,8 +332,13 @@ define(
 				renderControls($filterEl, data.versions);
 				initEvents();
 			});
+			Error.handleError({
+				$targetEl : null,
+				message : 'Testing Errors'
+			});
 		};
 				
 		init($el);
+		analytics.init();
 	}
 );
