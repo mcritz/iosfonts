@@ -6,11 +6,12 @@ define(
 		$
 	) {
 	return {
-		template : '<div data-alert class="alert-box alert">'
-			+ '<a href="#" class="close">&times;</a>'
-			+ '</div>',
-		makeErrorEl : function(content) {
-			return $(this.template).html(content);
+		template : '<div data-alert class="alert-box alert"></div>',
+		makeErrorEl : function(content, headline) {
+			var headline = headline ? '<b>'+ headline + ': </b>' : '';
+			var $errorContent = $( headline + '<span>' + content + '</span>');
+			
+			return $(this.template).prepend($errorContent);
 		},
 		fatalError : function(options) {
 			var message = options.message || 'Server error\nIt’s not your fault.';
@@ -40,11 +41,16 @@ define(
 			}
 			
 			if (!options.$targetEl) {
-				options.$targetEl = $('<div class="error notice"></div>');
+				var $newTargetEl = $('.error.notice');
+				if ( $newTargetEl.length ) {
+					options.$targetEl = $newTargetEl;
+				} else {
+					options.$targetEl = $('<div class="error notice"></div>');
+				}
 				$('body').prepend(options.$targetEl);
 			}
 			
-			var displayEl = this.makeErrorEl(options.message);
+			var displayEl = this.makeErrorEl(options.message, options.headline);
 			options.$targetEl.prepend(displayEl);
 			if (options.error) {
 				console.log(options.error);
