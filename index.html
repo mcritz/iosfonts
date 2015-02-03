@@ -4,7 +4,7 @@
     <title>iOS Fonts</title>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="iPhone, iPad, iOS, typography, font, iPod" />
@@ -62,6 +62,16 @@
 </footer>
 </div>
 
-<script data-main="js/init.js" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>
+<script src="js/lib/require.js"></script>
+<script>
+requirejs.config({
+	"paths": {
+		"main" : "js/main-built"
+	}
+});
+
+requirejs(["main"]);
+</script>
+
 </body>
 </html>

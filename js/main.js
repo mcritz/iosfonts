@@ -9,14 +9,16 @@ define(
 	[
 		"jquery",
 		"ErrorHandler",
-		"Analytics"
+		"Analytics",
+		"IosFonts"
 	],
 	function(
 		$,
 		ErrorHandler,
-		analytics
+		analytics,
+		fnt_iosfonts
 	) {
-		var allFonts = {};
+		var allFonts = fnt_iosfonts;
 		var $el = $('#iosfonts');
 		var $filterEl = $('#filters');
 		var $previewEl;
@@ -51,7 +53,7 @@ define(
 					+ 'the developer.';
 				ErrorHandler.handleError(
 				{
-					'headline' : 'Server Error',
+					'headline' : 'Server Error: renderFontsForVersion',
 					'message' : errorMessage
 				});
 			}
@@ -312,8 +314,7 @@ define(
 			return allIosVersions[(allIosVersions.length - 1)].version; // 8
 		};
 		
-		var init = function($targetEl) {
-			
+		var fetchFontData = function() {
 			$.ajax({
 				url: "data/iosfonts.json",
 				context: document.body,
@@ -328,6 +329,18 @@ define(
 				renderControls($filterEl, data.versions);
 				initEvents();
 			});
+		}
+		
+		var init = function($targetEl) {
+			if (!allFonts) {
+				fetchFontData();
+				return;
+			}
+			haltProgress();
+			var latestVersion = getLatestVersion(allFonts);
+			renderFontsForVersion(allFonts.fonts, latestVersion);
+			renderControls($filterEl, allFonts.versions);
+			initEvents();
 		};
 				
 		init($el);
