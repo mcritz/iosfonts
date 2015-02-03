@@ -30,18 +30,22 @@
 
 <div id="iosfonts">
 	<div class="row text-center">
-		<h5>Loading all fonts for iOS</h5>
-		<progress id="loading-view" value="0" max="100" style="width:50%">70 %</progress>
+		<div id="loading-view" style="display:none;">
+			<h5>Loading all fonts for iOS</h5>
+			<progress id="progress-indicator" value="0" max="100" style="width:50%">70 %</progress>
+		</div>
 		<script>
+			var loadingView = document.getElementById('loading-view');
 			var progressTimer;
 			var progress = 10;
-			var progressEl = document.getElementById('loading-view');
+			var progressEl = document.getElementById('progress-indicator');
 			
 			var updateProgress = function() {
 				progressEl.setAttribute('value', progress);
 				if (progress < 50) {
 					progress += 3;
 				} else if (progress < 75) {
+					loadingView.style.display='block';
 					progress += .5;
 				} else if (progress < 95) {
 					progress += .1;
