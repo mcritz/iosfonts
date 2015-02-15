@@ -67,7 +67,7 @@ define (
 	'Analytics',[ 
 		"ErrorHandler"
 	], function(
-		errors
+		errorHandler
 	) {
 		return {
 			init : function() {
@@ -76,13 +76,11 @@ define (
 				_gaq.push(['_trackPageview']);
 				
 				try {
-					(function() {
-					  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-					  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-					  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-					})();
+				  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				} catch (err) {
-					errors.handleError({
+					errorHandler.handleError({
 						'silent' : true,
 						'message' : 'Error loading Google Analytics',
 						'error' : err
@@ -2401,7 +2399,8 @@ define(
 		analytics,
 		fnt_iosfonts
 	) {
-		var allFonts = fnt_iosfonts;
+		var allFontData = fnt_iosfonts;
+		var allFonts = {};
 		var $el = $('#iosfonts');
 		var $filterEl = $('#filters');
 		var $previewEl;
@@ -2553,7 +2552,7 @@ define(
 						elClass += " available";
 					}
 					value = (isDepricated) ?
-						'depricated iOS ' + value.depricated : value.version;
+						'☠ ' + value.depricated : value.version;
 					break;
 				default :
 					return '<span class="' + elClass + '">—</span>';
@@ -2703,8 +2702,17 @@ define(
 				context: document.body,
 				crossDomain: true
 			}).done(function(data) {
-				haltProgress();
-				
+				try {
+					haltProgress();
+				} catch(e) {
+					ErrorHandler.handleError(
+						{
+							'silent' : true,
+							'message' : 'haltProgress failed from fetchFontData'
+						}
+					)
+				}
+
 				allFonts = data.fonts;
 				
 				var latestVersion = getLatestVersion(data);
@@ -2715,19 +2723,22 @@ define(
 		}
 		
 		var init = function($targetEl) {
-			if (!allFonts) {
+			if (!allFontData) {
 				fetchFontData();
 				return;
 			}
 			haltProgress();
-			var latestVersion = getLatestVersion(allFonts);
-			renderFontsForVersion(allFonts.fonts, latestVersion);
-			renderControls($filterEl, allFonts.versions);
+			var latestVersion = getLatestVersion(allFontData);
+			allFonts = allFontData.fonts;
+			renderFontsForVersion(allFonts, latestVersion);
+			renderControls($filterEl, allFontData.versions);
 			initEvents();
 		};
 				
 		init($el);
-		analytics.init();
+		if ((window.location).search('file://') != -1) {
+			analytics.init();
+		}
 	}
 );
 

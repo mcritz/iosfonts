@@ -18,7 +18,8 @@ define(
 		analytics,
 		fnt_iosfonts
 	) {
-		var allFonts = fnt_iosfonts;
+		var allFontData = fnt_iosfonts;
+		var allFonts = {};
 		var $el = $('#iosfonts');
 		var $filterEl = $('#filters');
 		var $previewEl;
@@ -162,15 +163,14 @@ define(
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
 				case "object" :
-					var isDepricated = value.depricated;
 					if (!value.version) { return; }
 					if (value.isNotAvailable) {
 						elClass += " unavailable";
 					} else {
 						elClass += " available";
 					}
-					value = (isDepricated) ?
-						'depricated iOS ' + value.depricated : value.version;
+					value = (value.depricated) ?
+						'☠ ' + value.depricated : value.version;
 					break;
 				default :
 					return '<span class="' + elClass + '">—</span>';
@@ -320,8 +320,17 @@ define(
 				context: document.body,
 				crossDomain: true
 			}).done(function(data) {
-				haltProgress();
-				
+				try {
+					haltProgress();
+				} catch(e) {
+					ErrorHandler.handleError(
+						{
+							'silent' : true,
+							'message' : 'haltProgress failed from fetchFontData'
+						}
+					)
+				}
+
 				allFonts = data.fonts;
 				
 				var latestVersion = getLatestVersion(data);
@@ -332,18 +341,21 @@ define(
 		}
 		
 		var init = function($targetEl) {
-			if (!allFonts) {
+			if (!allFontData) {
 				fetchFontData();
 				return;
 			}
 			haltProgress();
-			var latestVersion = getLatestVersion(allFonts);
-			renderFontsForVersion(allFonts.fonts, latestVersion);
-			renderControls($filterEl, allFonts.versions);
+			var latestVersion = getLatestVersion(allFontData);
+			allFonts = allFontData.fonts;
+			renderFontsForVersion(allFonts, latestVersion);
+			renderControls($filterEl, allFontData.versions);
 			initEvents();
 		};
 				
 		init($el);
-		analytics.init();
+		if ((window.location).search('file://') != -1) {
+			analytics.init();
+		}
 	}
 );
