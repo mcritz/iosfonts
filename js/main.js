@@ -111,6 +111,9 @@ define(
 			$previewEl.on(
 				'keyup', function() {
 					userText = $(this).val();
+					// TODO: renderFonts is too slow.
+					// using direct jQuery
+					// this should be configurable parameter
 					$('.face-name').text(userText);
 // 					renderFonts($el, allFonts, userText);
 				}
@@ -355,6 +358,8 @@ define(
 		};
 				
 		init($el);
+
+		// add analytics, if not developing locally
 		if ( window.location.href.search('file://') != -1 ) {
 			analytics.init();
 		}
