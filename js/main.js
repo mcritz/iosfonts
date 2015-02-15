@@ -111,7 +111,8 @@ define(
 			$previewEl.on(
 				'keyup', function() {
 					userText = $(this).val();
-					renderFonts($el, allFonts, userText);
+					$('.face-name').text(userText);
+// 					renderFonts($el, allFonts, userText);
 				}
 			);
 			$searchEl.on(
@@ -354,7 +355,7 @@ define(
 		};
 				
 		init($el);
-		if ((window.location).search('file://') != -1) {
+		if ( window.location.href.search('file://') != -1 ) {
 			analytics.init();
 		}
 	}

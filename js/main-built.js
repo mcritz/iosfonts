@@ -2492,7 +2492,8 @@ define(
 			$previewEl.on(
 				'keyup', function() {
 					userText = $(this).val();
-					renderFonts($el, allFonts, userText);
+					$('.face-name').text(userText);
+// 					renderFonts($el, allFonts, userText);
 				}
 			);
 			$searchEl.on(
@@ -2544,14 +2545,13 @@ define(
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
 				case "object" :
-					var isDepricated = value.depricated;
 					if (!value.version) { return; }
 					if (value.isNotAvailable) {
 						elClass += " unavailable";
 					} else {
 						elClass += " available";
 					}
-					value = (isDepricated) ?
+					value = (value.depricated) ?
 						'☠ ' + value.depricated : value.version;
 					break;
 				default :
@@ -2736,7 +2736,7 @@ define(
 		};
 				
 		init($el);
-		if ((window.location).search('file://') != -1) {
+		if ( window.location.href.search('file://') != -1 ) {
 			analytics.init();
 		}
 	}
