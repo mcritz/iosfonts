@@ -1936,6 +1936,363 @@
 				}
 		]
 	},
+		{
+		"family_name" : "San Francisco",
+		"faces" : [
+			{
+				"font_face" 	: "SanFranciscoDisplay-Black",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Bold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Heavy",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Light",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Medium",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Regular",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Semibold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Thin",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoDisplay-Ultralight",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Black",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Bold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Heavy",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Light",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Medium",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Regular",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Semibold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Thin",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoRounded-Ultralight",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Bold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldG1",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldG2",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldG3",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldItalicG1",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldItalicG2",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-BoldItalicG3",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Heavy",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-HeavyItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Light",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-LightItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Medium",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-MediumItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Regular",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularG1",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularG2",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularG3",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularItalicG1",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularItalicG2",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-RegularItalicG3",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Semibold",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-SemiboldItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-Thin",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+			{
+				"font_face" 	: "SanFranciscoText-ThinItalic",
+				"platforms"		: {
+					"iphone"	: null,
+					"ipad"		: null,
+					"watch"		: {"version" : 8.3}
+				}
+			},
+		]
+	},
 	{ "family_name" : "Savoye Let Plain",
 		"faces" : [
 				{
