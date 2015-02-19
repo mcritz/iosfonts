@@ -77,9 +77,23 @@ define(
 			});
 			renderFonts($el, fontData, userText);
 		}
+		
+		var createRegexWithString = function(string) {
+			if (typeof(string) != "string") {
+				ErrorHandler.handleError({
+					'headline' : 'Error creating regex from ' + typeof(string),
+					'message' : 'Please report this error to the developer'
+				});
+				return new RegExp("","gi");
+			}
+			string = string.replace(' ', '');
+			var newRegex = new RegExp(string, "gi");
+			return newRegex;
+		}
 
 		var renderFontsWithQuery = function(fontData, query) {
-			var regexPattern = new RegExp(query, "gi");
+			
+			var regexPattern = createRegexWithString(query);
 			
 			var countOfActive = 0;
 			
@@ -167,7 +181,10 @@ define(
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
 				case "object" :
-					if (!value.version) { return; }
+					if (!value) {
+						elClass += " unavailable";
+						value = "-";
+					}
 					if (value.isNotAvailable) {
 						elClass += " unavailable";
 					} else {
