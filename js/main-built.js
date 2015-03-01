@@ -2773,8 +2773,11 @@ define(
 					// TODO: renderFonts is too slow.
 					// using direct jQuery
 					// this should be configurable parameter
-					$('.face-name').text(userText);
-// 					renderFonts($el, allFonts, userText);
+					if (userText && userText != '') {
+						$('.face-name').text(userText);
+					} else {
+						renderFonts($el, allFonts, null);
+					}
 				}
 			);
 			$searchEl.on(
@@ -2823,7 +2826,7 @@ define(
 					if (!fontFamily) { return; }
 					elClass = "face-name small-12 medium-6 large-9 columns";
 					fontAttributes = "title=" + fontFamily
-						+ " style='font-family:" + fontFamily + ";'";
+						+ " style='font-family:\"" + fontFamily + "\";'";
 					break;
 				case "object" :
 					if (!value) {
@@ -2902,6 +2905,8 @@ define(
 			$(data).each( function() {
 				if (this.isNotActive) {
 					return;
+				} else if (!previewText || previewText == '') {
+					previewText = this.family_name;
 				}
 				$list.append('<li><h4 class="row">'
 				+ '<span class="font-name small-12 medium-6 large-9 columns">'
