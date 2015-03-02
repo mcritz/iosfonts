@@ -124,15 +124,16 @@ define(
 		var initEvents = function() {
 			$previewEl.on(
 				'keyup', function() {
-					userText = $(this).val();
+					var userText = $(this).val();
+
 					// TODO: renderFonts is too slow.
 					// using direct jQuery
 					// this should be configurable parameter
-					if (userText && userText != '') {
+					if (userText != '') {
 						$('.face-name').text(userText);
 					} else {
-						renderFonts($el, allFonts, null);
-					}
+						renderFonts($el, allFonts, userText);
+					} 
 				}
 			);
 			$searchEl.on(
@@ -181,7 +182,7 @@ define(
 					if (!fontFamily) { return; }
 					elClass = "face-name small-12 medium-6 large-9 columns";
 					fontAttributes = "title=" + fontFamily
-						+ " style='font-family:\"" + fontFamily + "\";'";
+						+ " style='font-family:" + fontFamily + ";'";
 					break;
 				case "object" :
 					if (!value) {
@@ -200,7 +201,7 @@ define(
 					return '<span class="' + elClass + '">—</span>';
 			}
 			return '<span class="' + elClass
-				+ '" ' + fontAttributes + '>' + value + '</span>';
+				+ '" ' + fontAttributes + '>' + value + '&nbsp;</span>';
 		}
 		
 		var listPlatforms = function(platforms) {
@@ -260,8 +261,6 @@ define(
 			$(data).each( function() {
 				if (this.isNotActive) {
 					return;
-				} else if (!previewText || previewText == '') {
-					previewText = this.family_name;
 				}
 				$list.append('<li><h4 class="row">'
 				+ '<span class="font-name small-12 medium-6 large-9 columns">'

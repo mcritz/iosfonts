@@ -27,7 +27,7 @@ return {
 		{ "version" : 6.0 },
 		{ "version" : 7.0 },
 		{ "version" : 8.0 },
-		{ "version" : 8.3 }
+		{ "version" : 8.2 }
 	],
 	"mac" : [
 		{ "version" : 10.10, 	"name" : "Yosemite"},
@@ -46,7 +46,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -58,7 +58,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -66,7 +66,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -78,7 +78,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -86,7 +86,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -94,7 +94,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -102,7 +102,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -110,7 +110,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -118,7 +118,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -130,7 +130,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -142,7 +142,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -150,7 +150,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -158,7 +158,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -166,7 +166,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -174,7 +174,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -182,7 +182,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -190,7 +190,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 4.3},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -202,7 +202,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -210,7 +210,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -218,7 +218,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -226,7 +226,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -238,7 +238,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -246,7 +246,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -254,7 +254,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -266,7 +266,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -278,7 +278,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -286,7 +286,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -294,7 +294,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -302,7 +302,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -310,7 +310,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -318,7 +318,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -326,7 +326,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -334,7 +334,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -342,7 +342,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -350,7 +350,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -358,7 +358,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -366,7 +366,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -378,7 +378,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -386,7 +386,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -394,7 +394,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -402,7 +402,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -410,7 +410,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -418,7 +418,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -426,7 +426,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -434,7 +434,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -442,7 +442,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -450,7 +450,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -458,7 +458,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -466,7 +466,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -478,7 +478,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -486,7 +486,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -494,7 +494,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -502,7 +502,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -510,7 +510,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -518,7 +518,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -526,7 +526,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -534,7 +534,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -542,7 +542,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -550,7 +550,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -558,7 +558,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -566,7 +566,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -578,7 +578,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -586,7 +586,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -598,7 +598,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -606,7 +606,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -614,7 +614,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -622,7 +622,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -630,7 +630,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -638,7 +638,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -650,7 +650,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -662,7 +662,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -670,7 +670,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -678,7 +678,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -690,7 +690,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -698,7 +698,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -706,7 +706,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -714,7 +714,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -726,7 +726,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -738,7 +738,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -746,7 +746,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -754,7 +754,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -766,7 +766,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -778,7 +778,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -786,7 +786,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -794,7 +794,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -802,7 +802,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -814,7 +814,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -822,7 +822,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -830,7 +830,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -842,7 +842,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -850,7 +850,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -858,7 +858,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -866,7 +866,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -878,7 +878,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -886,7 +886,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -894,7 +894,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -902,7 +902,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -926,7 +926,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -938,7 +938,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -950,7 +950,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -958,7 +958,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -966,7 +966,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -974,7 +974,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -982,7 +982,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -994,7 +994,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1002,7 +1002,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1014,7 +1014,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1022,7 +1022,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1030,7 +1030,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1042,7 +1042,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1054,7 +1054,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1062,7 +1062,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1070,7 +1070,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1082,7 +1082,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1094,7 +1094,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1102,7 +1102,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1110,7 +1110,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1118,7 +1118,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1130,7 +1130,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1138,7 +1138,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1150,7 +1150,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1158,7 +1158,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1166,7 +1166,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1174,7 +1174,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1186,7 +1186,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1194,7 +1194,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1202,7 +1202,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1210,7 +1210,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1218,7 +1218,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1226,7 +1226,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1238,7 +1238,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1246,7 +1246,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1258,7 +1258,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1266,7 +1266,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1278,7 +1278,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1286,7 +1286,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1298,7 +1298,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1306,7 +1306,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1318,7 +1318,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1326,7 +1326,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1334,7 +1334,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1342,7 +1342,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1350,7 +1350,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1358,7 +1358,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1370,7 +1370,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1378,7 +1378,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1386,7 +1386,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1394,7 +1394,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1402,7 +1402,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1410,7 +1410,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1418,7 +1418,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1426,7 +1426,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1434,7 +1434,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1442,7 +1442,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1450,7 +1450,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1458,7 +1458,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1466,7 +1466,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1474,7 +1474,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1486,7 +1486,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1494,7 +1494,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1506,7 +1506,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1514,7 +1514,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1526,7 +1526,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1534,7 +1534,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1542,7 +1542,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1550,7 +1550,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1562,7 +1562,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1570,7 +1570,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1578,7 +1578,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1586,7 +1586,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1598,7 +1598,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1606,7 +1606,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1618,7 +1618,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1626,7 +1626,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1638,7 +1638,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1650,7 +1650,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1658,7 +1658,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1666,7 +1666,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1678,7 +1678,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1690,7 +1690,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1698,7 +1698,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1710,7 +1710,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1718,7 +1718,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1726,7 +1726,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1738,7 +1738,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1746,7 +1746,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1754,7 +1754,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1762,7 +1762,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1774,7 +1774,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1782,7 +1782,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1794,7 +1794,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1802,7 +1802,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1814,7 +1814,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1822,7 +1822,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1830,7 +1830,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1838,7 +1838,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1846,7 +1846,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1858,7 +1858,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1866,7 +1866,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1878,7 +1878,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1886,7 +1886,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1894,7 +1894,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1902,7 +1902,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1914,7 +1914,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -1922,7 +1922,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1934,7 +1934,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -1944,265 +1944,265 @@ return {
 		{
 			"font_face" 	: "SanFranciscoDisplay-Black",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Bold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Heavy",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Light",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Medium",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Regular",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Semibold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Thin",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoDisplay-Ultralight",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Black",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Bold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Heavy",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Light",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Medium",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Regular",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Semibold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Thin",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoRounded-Ultralight",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Bold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldG1",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldG2",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldG3",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldItalicG1",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldItalicG2",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-BoldItalicG3",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Heavy",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-HeavyItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Light",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-LightItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Medium",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-MediumItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Regular",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularG1",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularG2",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularG3",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularItalicG1",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularItalicG2",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-RegularItalicG3",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Semibold",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-SemiboldItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-Thin",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 		{
 			"font_face" 	: "SanFranciscoText-ThinItalic",
 			"platforms"		: {
-				"watch"		: {"version" : 8.3}
+				"watch"		: {"version" : 8.2}
 			}
 		},
 	]
@@ -2214,7 +2214,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2226,7 +2226,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2234,7 +2234,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2246,7 +2246,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2254,7 +2254,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 5.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2262,7 +2262,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2274,7 +2274,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2282,7 +2282,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2290,7 +2290,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2298,7 +2298,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2306,7 +2306,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2314,7 +2314,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2322,7 +2322,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2330,7 +2330,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 7.0},
 						"ipad"			: {"version" : 7.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2342,7 +2342,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 6.0},
 						"ipad"			: {"version" : 6.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2354,7 +2354,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2362,7 +2362,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2374,7 +2374,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2382,7 +2382,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2394,7 +2394,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2402,7 +2402,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2410,7 +2410,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 8.0},
 						"ipad"			: {"version" : 8.0},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2422,7 +2422,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2430,7 +2430,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2438,7 +2438,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2446,7 +2446,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2458,7 +2458,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2466,7 +2466,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2474,7 +2474,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2482,7 +2482,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2494,7 +2494,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2502,7 +2502,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2510,7 +2510,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				},
 				{
@@ -2518,7 +2518,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2530,7 +2530,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 5.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
@@ -2542,7 +2542,7 @@ return {
 					"platforms"		: {
 						"iphone" 		: {"version" : 3.0},
 						"ipad"			: {"version" : 4.3},
-						"watch"			: {"version" : 8.3}
+						"watch"			: {"version" : 8.2}
 					}
 				}
 		]
