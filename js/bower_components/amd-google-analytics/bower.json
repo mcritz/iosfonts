@@ -1,0 +1,20 @@
+{
+  "name": "amd-google-analytics",
+  "version": "1.0.0",
+  "description": "AMD loading for google analytics that doesn't block the page waiting for the analytics.js script",
+  "main": "ga.js",
+  "keywords": [
+    "amd",
+    "requirejs",
+    "google",
+    "analytics"
+  ],
+  "authors": [
+    "Archon Information Systems"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

@@ -9,7 +9,7 @@ define(
 	[
 		"jquery",
 		"ErrorHandler",
-		"Analytics",
+		"bower_components/amd-google-analytics/ga",
 		"IosFonts"
 	],
 	function(
@@ -29,16 +29,14 @@ define(
 		var fontFaceClass = 'font-face';
 		var clickedFaceClass = 'large';
 		var userText = '';
-		
-		var initAnalytics = analytics;
-		
+				
 		var getKeys = function(object) {
 			var objectKeys = [];
 			
 			for (var key in object) {
 				if (typeof(object[key]) == 'boolean') {
 					break;
-				};
+				}
 				
 				if (object.hasOwnProperty(key)) {
 					objectKeys.push(key);
@@ -376,13 +374,10 @@ define(
 			renderFontsForVersion(allFonts, latestVersion);
 			renderControls($filterEl, allFontData.versions);
 			initEvents();
+
+			analytics('send', 'pageview');
 		};
 				
 		init($el);
-
-		// add analytics, if not developing locally
-		if ( window.location.href.search('file://') != -1 ) {
-			analytics.init();
-		}
 	}
 );

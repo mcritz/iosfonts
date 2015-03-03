@@ -69,8 +69,15 @@
 <script src="js/lib/require.js"></script>
 <script>
 requirejs.config({
-	"paths": {
-		"main" : "js/main-built"
+	config: {
+		ga: {
+			account: 'UA-5874947-7',
+			domain: 'iosfonts.com'
+		}
+	},
+	paths: {
+		main: "js/main-built",
+		ga: 'js/bower_components/amd-google-analytics/ga'
 	}
 });
 
