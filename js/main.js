@@ -334,9 +334,8 @@ define(
 				ErrorHandler.handleError(null, errorHeader, 'Sorry. It’s not your fault');
 			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
-			var allIosVersions = metaData.versions.ios; 								// [3..8.0]
-			console.log(allIosVersions[(allIosVersions.length - 1)].version);
-			return allIosVersions[(allIosVersions.length - 1)].version; // 8
+			var allIosVersions = metaData.versions.ios; 								// [3..9]
+			return allIosVersions[(allIosVersions.length - 1)].version; // 9
 		};
 		
 		var fetchFontData = function() {
