@@ -183,7 +183,7 @@ define(
 					break;
 				case "string" :
 					if (!fontFamily) { return; }
-					elClass = "face-name small-12 medium-6 large-9 columns";
+					elClass = "face-name small-12 medium-4 large-8 columns";
 					fontAttributes = "title=" + fontFamily
 						+ " style='font-family:" + fontFamily + ";'";
 					break;
@@ -298,14 +298,14 @@ define(
 		};
 		
 		var renderControls = function($element, versionData) {
-			var template = 	'<div class="target small-12 medium-6 columns">'
+			var template = 	'<div class="target small-12 medium-4 columns">'
 				+ '<label for="os-version">&nbsp;</label>'
 				+ '<select id="os-version">'
 					+ itemizeVersions(versionData.ios)
 				+ '</select>'
 				+ '</div>'
 				
-				+ '<div class="small-12 medium-6 columns">'
+				+ '<div class="small-12 medium-4 columns">'
 				+	'<label for="font-search">&nbsp;</label>'
 				+ '<input id="font-search" type="search" placeholder="Search Fonts"'
 						+ 'results="5" autosave=iosfonts_cached_search_query />'
