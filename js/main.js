@@ -170,6 +170,11 @@ define(
 			var elClass = "small-3 medium-2 large-1 columns";
 			var fontAttributes = "";
 
+			if (!value) {
+				return '<span class="' + elClass
+				+ '" ' + fontAttributes + '>' + "—" + '&nbsp;</span>';
+			}
+
 			switch (typeof(value)) {
 				case "number" :
 					if (value % 1 == 0) {
@@ -286,7 +291,7 @@ define(
 				}
 				choices += '<option value="' + ver + '" '
 					+ optionAttr
-					+ '>Installed since iOS ' + ver
+					+ '>Installed since iOS SDK ' + ver
 					+ '</option>';
 			}
 			return choices;
