@@ -167,8 +167,13 @@ define(
 		 **/
 		var itemizeValue = function(value, fontFamily) {
 			var fontStyle = "";
-			var elClass = "small-4 medium-2 large-1 columns";
+			var elClass = "small-3 medium-2 large-1 columns";
 			var fontAttributes = "";
+
+			if (!value) {
+				return '<span class="' + elClass
+				+ '" ' + fontAttributes + '>' + "—" + '&nbsp;</span>';
+			}
 
 			switch (typeof(value)) {
 				case "number" :
@@ -247,25 +252,26 @@ define(
 			}
 			if (data.hasNoMatches) {
 				var template = '<ul><li><h4 class="row">'
-					+ '<span class="font-name small-12 medium-6 large-9 columns">'
+					+ '<span class="font-name small-12 medium-4 large-8 columns">'
 					+ 'No Matches'
 					+ '</span></h4></li></ul>';
 				$target.html(template);
 				return;
 			}
 			var $list = $('<ul></ul>');
-			var elClass = "small-4 medium-2 large-1 columns";
+			var elClass = "small-3 medium-2 large-1 columns";
 
 			$(data).each( function() {
 				if (this.isNotActive) {
 					return;
 				}
 				$list.append('<li><h4 class="row">'
-				+ '<span class="font-name small-12 medium-6 large-9 columns">'
+				+ '<span class="font-name small-12 medium-4 large-8 columns">'
 				+ this.family_name + '</span>'
 				+ '<span class="' + elClass + '"><small>iPhone</small></span>'
 				+ '<span class="' + elClass + '"><small>iPad</small></span>'
 				+ '<span class="' + elClass + '"><small>&nbsp;WATCH</small></span>'
+				+ '<span class="' + elClass + '"><small>&nbsp;TV</small></span>'
 				+ '</h4>'
 				+ renderFontFaces(this.faces, previewText)
 				+ '</li>');
@@ -285,7 +291,7 @@ define(
 				}
 				choices += '<option value="' + ver + '" '
 					+ optionAttr
-					+ '>Installed since iOS ' + ver
+					+ '>Installed since iOS SDK ' + ver
 					+ '</option>';
 			}
 			return choices;
@@ -333,8 +339,8 @@ define(
 				ErrorHandler.handleError(null, errorHeader, 'Sorry. It’s not your fault');
 			}
 			var oldestPlatform = getKeys(metaData.platforms)[0];				// "iphone"
-			var allIosVersions = metaData.versions.ios; 								// [3..8.0]
-			return allIosVersions[(allIosVersions.length - 1)].version; // 8
+			var allIosVersions = metaData.versions.ios; 								// [3..9]
+			return allIosVersions[(allIosVersions.length - 1)].version; // 9
 		};
 		
 		var fetchFontData = function() {
