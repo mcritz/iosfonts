@@ -54,6 +54,11 @@ li span {
 	color: #aaa;
 }
 
+.font-face span {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
 .font-face.large span {
 	display: none;
 }
